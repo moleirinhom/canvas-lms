@@ -80,104 +80,104 @@
       updating: A atualizar...
     prompts: 
       delete_avatar: "Queres eliminar a foto de perfil deste utilizador?"
-      lock_avatar: "Locking this picture will approve it and prevent the user from updating it.  Continue?"
+      lock_avatar: "Bloquear imagem vai aprová-la e impedir o utilizador de a atualizar.  Continuar?"
   mathquill: 
     tabs: 
-      arrows: Arrows
-      basic: Basic
-      delimiters: Delimiters
-      greek: Greek
+      arrows: Setas
+      basic: Básico
+      delimiters: Delimitadores
+      greek: Grego
       miscellaneous: Misc
-      operators: Operators
-      relationships: Relationships
+      operators: Operadores
+      relationships: Relações
   media_comments: 
     buttons: 
-      submit: "Submit Media File"
+      submit: "Enviar arquivo de mídia"
     errors: 
-      file_too_large: "*This file is too large.* The maximum size is %{size}MB."
-      load_failed: "Media Comment Application failed to load.  Please try again."
-      must_be_logged_in: "You must be logged in to record media."
-      persistent_problem: "If this problem keeps happening, you may want to try recording your media locally and then uploading the saved file instead."
-      save_failed: "Saving appears to have failed.  Please close this popup to try again."
-      save_failed_try_again: "Entry failed to save.  Please try again."
-      upload_failed: "Upload failed with error:"
+      file_too_large: "*Este ficheiro é muito grande.* O limite é de %{size}MB."
+      load_failed: "O carregamento da aplicação de comentários de mídia falhou. Tenta de novo."
+      must_be_logged_in: "Conecta-te para fazer a gravação de mídia."
+      persistent_problem: "Se este problema persistir, tenta gravar o teu mídia localmente e carrega o ficheiro gravado."
+      save_failed: "A gravação falhou. Fecha este popup e tenta de novo."
+      save_failed_try_again: "A gravação falhou. Tenta de novo."
+      upload_failed: "O carregamento falhou com um erro:"
     links: 
-      upgrade_flash: "Click here to upgrade"
+      upgrade_flash: "Clica aqui para atualizar"
     messages: 
-      file_failed_to_load: "This media file failed to load"
-      flash_required: "This video requires Flash version 9 or higher (you have %{version} installed)."
-      flash_required_record_audio: "Flash required for recording audio."
-      flash_required_upload_audio: "Flash required for uploading audio."
-      flash_required_upload_video: "Flash required for uploading video."
-      loading: Loading...
-      submitted: "Submitted Media File!"
-      submitting: "Submitting Media File..."
+      file_failed_to_load: "O carregamento de este ficheiro de mídia falhou"
+      flash_required: "Este vídeo requere uma versão Flash 9 ou mais (tens a versão %{version} instalada)."
+      flash_required_record_audio: "Flash requerido para gravar audio."
+      flash_required_upload_audio: "Flash requerido para carregar audio."
+      flash_required_upload_video: "Flash requerido para carregar vídeo."
+      loading: A carregar...
+      submitted: "Ficheiro de mídia enviado!"
+      submitting: "A enviar ficheiro de mídia..."
     titles: 
-      click_to_view: "Click to View"
-      media_contribution: "Media Contribution"
-      play_comment: "Play Media Comment"
-      record_upload_media_comment: "Record/Upload Media Comment"
+      click_to_view: "Clica para ver"
+      media_contribution: "Contribuição de mídia"
+      play_comment: "Reproduzir comentários de mídia"
+      record_upload_media_comment: "Gravar/Carregar Comentário de Mídia"
   menu: 
-    current_groups: "Current Groups"
+    current_groups: "Grupos atuais"
     customize: Customize
-    managed_accounts: "Managed Accounts"
-    my_courses: "My Courses"
+    managed_accounts: "Administrar contas"
+    my_courses: "Meus Cursos"
   message: 
-    default_subject: "Canvas Alert"
+    default_subject: "Alerta do Campus"
   message_students: 
     buttons: 
-      send_message: "Send Message"
-      send_message_failed: "Sending Message Failed, please try again"
-      sending_message: "Sending Message..."
-    message_student: "Message Students for %{course_name}"
-    send_message: "Send Message"
+      send_message: "Enviar Mensagem"
+      send_message_failed: "O envio da mensagem falhou, tenta de novo"
+      sending_message: "A enviar Mensagem..."
+    message_student: "Mensagem para estudantes de %{course_name}"
+    send_message: "Enviar Mensagem"
   messages: 
     account_user_notification: 
       email: 
-        subject: "Account Admin Notification"
+        subject: "Notificação do admin da conta"
         url_info: |-
-            Visit the account page here:
+            Visitar a página da conta aqui:
             %{url}
     account_user_registration: 
       email: 
-        added_message: "You've been added as an %{role_type} to the account %{account} at %{website}."
+        added_message: "Foste adicionado como um %{role_type} para a conta %{account} em %{website}."
         email_info: "Email: %{email}"
-        name_info: "Name: %{name}"
-        subject: "Canvas Account Admin Invitation"
+        name_info: "Nome: %{name}"
+        subject: "Convite de administrador de conta do Campus"
         url_info: |-
-            You'll need to register with Canvas before you can participate as an account admin.  You can finish the registration process here:
+            Faz o registo no Campus para participar como administrador da conta.  Termina o processo de registo aqui:
             %{url}
-        username_info: "Username: %{username}"
+        username_info: "Nome de utilizador: %{username}"
     added_to_conversation: 
       email: 
-        body: "%{user_name} just added you to a conversation in Canvas. To view the conversation, click the link below:"
-        subject: "%{user_name} just added you to a conversation in Canvas."
-        unknown_user: "Unknown User"
+        body: "%{user_name} adicionou-te a uma conversa no Campus. Para ver a conversa, clica no link que segue:"
+        subject: "%{user_name} adicionou-te a uma conversa no Campus."
+        unknown_user: "Utilizador desconhecido"
       facebook: 
-        body: "%{user_name} just added you to a conversation in Canvas."
-        link_text: "View Conversation"
-        unknown_user: "Unknown User"
+        body: "%{user_name} adicionou-te a uma conversa no Campus."
+        link_text: "Ver Conversa"
+        unknown_user: "Utilizador desconhecido"
       sms: 
-        body: "%{user_name} just added you to a conversation in Canvas."
-        more_info: "More info at %{url}"
-        unknown_user: "Unknown User"
+        body: "%{user_name} adicionou-te a uma conversa no Campus."
+        more_info: "Mais info em %{url}"
+        unknown_user: "Utilizador desconhecido"
       summary: 
-        body: "%{user_name} just added you to a conversation in Canvas."
-        subject: "%{user_name} just added you to a conversation in Canvas."
-        unknown_user: "Unknown User"
+        body: "%{user_name} adicionou-te a uma conversa no Campus."
+        subject: "%{user_name} adicionou-te a uma conversa no Campus."
+        unknown_user: "Utilizador desconhecido"
       twitter: 
-        tweet: "Canvas Alert - Added to conversation by %{user_name}."
-        unknown_user: "Unknown User"
+        tweet: "Alerta Campus - Adicionado à conversa por %{user_name}."
+        unknown_user: "Utilizador desconhecidor"
     alert: 
       email: 
         body: 
-          one: "An alert has been triggered for %{student} because the following condition has been met:"
-          other: "An alert has been triggered for %{student} because the following conditions have been met:"
+          one: "Foi criado um alerta para %{student} porque a condição seguinte foi cumprida:"
+          other: "Foi criado um alerta para %{student} porque a condição seguinte foi cumprida:"
         body_student: 
-          one: "An alert has been triggered for you because the following condition has been met:"
-          other: "An alert has been triggered for you because the following conditions have been met:"
-        interaction_description: "No student/teacher interaction for %{count} days"
-        subject: "Alert: %{user_name}"
+          one: "Foi criado um alerta para ti porque a condição seguinte foi cumprida:"
+          other: "Foi criado um alerta para ti porque a condição seguinte foi cumprida:"
+        interaction_description: "Sem interações de estudante/facilitador durante %{count} dias"
+        subject: "Alerta: %{user_name}"
         ungraded_count_description: "%{count} or more submissions have not been graded"
         ungraded_timespan_description: "A submission has been left ungraded for %{count} days"
         usernote_description: "No faculty journal entries for %{count} days"
