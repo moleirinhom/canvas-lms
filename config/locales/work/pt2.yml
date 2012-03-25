@@ -1,85 +1,85 @@
-      view_all_accounts: "View all accounts"
-      view_all_enrollments: "View all courses"
-      view_all_groups: "View all groups"
+      view_all_accounts: "Ver todas as contas"
+      view_all_enrollments: "Ver todos os cursos"
+      view_all_groups: "Ver todos os grupos"
   learning_outcome: 
-    align_item: "Align Item"
-    align_to_outcome: "Align Item to this Outcome"
-    loading_more_results: "Loading more results"
-    no_comment: "No Comment"
-    no_description: "No Description"
-    remove_outcome_alignment: "Are you sure you want to remove this alignment?"
-    this_outcome: "this Outcome"
+    align_item: "Atribuir elemento"
+    align_to_outcome: "Atribuir elemento para este resultado"
+    loading_more_results: "A carregar mais resultados"
+    no_comment: "Sem comentários"
+    no_description: "Sem descrição"
+    remove_outcome_alignment: "Queres remover esta tarefa?"
+    this_outcome: "este resultado"
   learning_outcomes: 
     criteria: 
-      does_not_meet_expectations: "Does Not Meet Expectations"
-      exceeds_expectations: "Exceeds Expectations"
-      meets_expectations: "Meets Expectations"
-    details_failed_to_load: "details failed to load, please try again"
-    find_existing_outcome: "Find Existing Outcome"
-    loading_outcomes: "Loading outcomes..."
-    loading_outcomes_failed: "Loading outcomes failed, please try again"
-    outcome_criterion: "Learning Outcome Criterion"
+      does_not_meet_expectations: "Não cumpre as espectativas"
+      exceeds_expectations: "Exede as espectativas"
+      meets_expectations: "Cumpre as espectativas"
+    details_failed_to_load: "O carregamento dos detalhes falhou, tenta de novo"
+    find_existing_outcome: "Encontrar um resultado existente"
+    loading_outcomes: "A carregar resultados..."
+    loading_outcomes_failed: "O carregamento dos resultados falhou, tenta de novo"
+    outcome_criterion: "Criterio de Resultados de Aprendizagem"
     remove_learning_outcome: "Are you sure you want to remove this learning outcome?"
-    remove_outcome_group: "Are you sure you want to remove this learning outcome group and all its outcomes?"
-    show_details: "show details"
+    remove_outcome_group: "Queres remover este resultado de aprendizagem?"
+    show_details: "ver detalhes"
   lib: 
     auth: 
-      authentication_required: "user authorization required"
+      authentication_required: "Autorização do utilizador requerida"
       errors: 
-        not_authenticated: "You must be logged in to access this page"
-        not_authorized: "You are not authorized to view this page"
-        student_not_found: "No student found"
-        teacher_not_found: "No teacher found"
+        not_authenticated: "Efetuar login para aceder a esta página"
+        not_authorized: "Não estás autorizado a ver esta página"
+        student_not_found: "Não foram encontrados estudantes"
+        teacher_not_found: "Não foram encontrados facilitadores"
     cc: 
       standard: 
-        failed_to_convert_qti: "Failed to import Assessment %{file_identifier}"
+        failed_to_convert_qti: "Falha ao importar a tarefa %{file_identifier}"
     google_docs: 
-      default_document_name: "Instructure Doc"
+      default_document_name: "Documento de Instructure"
     incoming_message_processor: 
       failure_message: 
         body: |-
-            The message titled "%{subject}" could not be delivered.  The message was sent to an unknown mailbox address.  If you are trying to contact someone through Canvas you can try logging in to your account and sending them a message using the Inbox tool.
+            A mensagem "%{subject}" não foi entregue.  A mensagem foi enviada para um endereço de mail desconhecido. Se estás a tentar contactar alguém do Campus, faz o login e envia-lhe uma mensagem.
             
-            Thank you,
-            Canvas Support
-        subject: "Message Reply Failed: %{subject}"
+            Obrigado,
+            Campus
+        subject: "Resposta à mensagem falhou: %{subject}"
     send_to_inbox: 
-      default_subject: "No Subject"
+      default_subject: "Sem assunto"
     text_helper: 
       ellipsis: "..."
-      quoted_text_toggle: "show quoted text"
+      quoted_text_toggle: "mostrar texto citado"
   link_enrollment: 
     buttons: 
-      link: "Link to Student"
+      link: "Link para o estudante"
     errors: 
-      link_failed: "Linking Failed, please try again"
-      load_failed: "Loading Students Failed, please try again"
+      link_failed: "O link falhou, tenta de novo"
+      load_failed: "O carregamento dos estudantes falhou, tenta de novo"
     messages: 
-      linking_to_student: "Linking to Student..."
-      loading_students: "Loading Students..."
+      linking_to_student: "A conectar com o estudante..."
+      loading_students: "A carregar estudantes..."
     options: 
-      no_link: "[ No Link ]"
+      no_link: "[ Sem Link ]"
     titles: 
-      link_to_student: "Link to Student"
+      link_to_student: "Link para o estudante"
   links: 
-    dashboard: "My Dashboard"
-    deselect_all: "Deselect All"
+    dashboard: "Meu Painel"
+    deselect_all: "Deselecionar tudo"
     errors: 
-      4xx_feedback: "Click here to tell us what you were looking for."
-      feedback: "Click here to tell us what happened"
-    more_options: "more options"
-    select_all: "Select All"
-    show_me_where: "Show Me Where"
-    switch_views: "Switch Views"
+      4xx_feedback: "Clica aqui para nos dizer o que procuras."
+      feedback: "Clica aqui para nos dizer o que aconteceu"
+    more_options: "mais opções"
+    select_all: "Selecionar tudo"
+    show_me_where: "Mostra-me onde"
+    switch_views: "Mudar vistas"
   locales: 
     en: English
   manage_avatars: 
     errors: 
-      update_failed: "Update failed, please try again"
+      update_failed: "A atualização falhou, tenta de novo"
     messages: 
-      updating: Updating...
+      updating: A atualizar...
     prompts: 
-      delete_avatar: "Are you sure you want to delete this user's profile pic?"
+      delete_avatar: "Queres eliminar a foto de perfil deste utilizador?"
       lock_avatar: "Locking this picture will approve it and prevent the user from updating it.  Continue?"
   mathquill: 
     tabs: 
