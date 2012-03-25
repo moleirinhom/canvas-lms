@@ -63,7 +63,7 @@
       link_to_student: "Link para o estudante"
   links: 
     dashboard: "Meu Painel"
-    deselect_all: "Deselecionar tudo"
+    deselect_all: "Remover a seleção"
     errors: 
       4xx_feedback: "Clica aqui para nos dizer o que procuras."
       feedback: "Clica aqui para nos dizer o que aconteceu"
