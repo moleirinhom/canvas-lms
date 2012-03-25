@@ -171,44 +171,44 @@
     alert: 
       email: 
         body: 
-          one: "Foi criado um alerta para %{student} porque a condição seguinte foi cumprida:"
-          other: "Foi criado um alerta para %{student} porque a condição seguinte foi cumprida:"
+          one: "Foi ativado um alerta para %{student} porque a condição seguinte foi cumprida:"
+          other: "Foi ativado um alerta para %{student} porque a condição seguinte foi cumprida:"
         body_student: 
-          one: "Foi criado um alerta para ti porque a condição seguinte foi cumprida:"
-          other: "Foi criado um alerta para ti porque a condição seguinte foi cumprida:"
-        interaction_description: "Sem interações de estudante/facilitador durante %{count} dias"
+          one: "Foi ativado um alerta para ti porque a condição seguinte foi cumprida:"
+          other: "Foi ativado um alerta para ti porque a condição seguinte foi cumprida:"
+        interaction_description: "Não há interações de estudante/facilitador á %{count} dias"
         subject: "Alerta: %{user_name}"
-        ungraded_count_description: "%{count} or more submissions have not been graded"
-        ungraded_timespan_description: "A submission has been left ungraded for %{count} days"
-        usernote_description: "No faculty journal entries for %{count} days"
+        ungraded_count_description: "%{count} ou mais submissões não foram avaliadas"
+        ungraded_timespan_description: "Não há submissões de avaliações à  %{count} dias"
+        usernote_description: "Não há entradas no diário de facilitadores à %{count} dias"
       facebook: 
         body: 
-          one: "An alert has been triggered for %{student} because the following condition has been met:"
-          other: "An alert has been triggered for %{student} because the following conditions have been met:"
+          one: "Foi ativado um alerta para %{student} porque a condição seguinte foi cumprida:"
+          other: "Foi ativado um alerta para %{student} porque a condição seguinte foi cumprida:"
         body_student: 
-          one: "An alert has been triggered for you because the following condition has been met:"
-          other: "An alert has been triggered for you because the following conditions have been met:"
-        interaction_description: "No student/teacher interaction for %{count} days"
-        ungraded_count_description: "%{count} or more assignments have not been graded"
-        usernote_description: "No faculty journal entries for %{count} days"
+          one: "Foi ativado um alerta para ti porque a condição seguinte foi cumprida:"
+          other: "Foi ativado um alerta para ti porque a condição seguinte foi cumprida:"
+        interaction_description: "Não há interações de estudante/facilitador à %{count} dias"
+        ungraded_count_description: "%{count} ou mais submissões não foram avaliadas"
+        usernote_description: "Não há entradas no diário de facilitadores à %{count} dias"
       sms: 
-        body: "An alert has been triggered for %{student}"
-        body_student: "An alert has been triggered for you"
-        more_info: "More info at %{url}"
+        body: "Foi ativado um alerta para %{student}"
+        body_student: "Foi ativado um alerta para ti"
+        more_info: "Mais info em %{url}"
       summary: 
         body: 
-          one: "An alert has been triggered for %{student} because the following condition has been met:"
-          other: "An alert has been triggered for %{student} because the following conditions have been met:"
+          one: "Foi ativado um alerta para %{student} porque a condição seguinte foi cumprida:"
+          other: "Foi ativado um alerta para %{student} porque a condição seguinte foi cumprida:"
         body_student: 
-          one: "An alert has been triggered for you because the following condition has been met:"
-          other: "An alert has been triggered for you because the following conditions have been met:"
-        interaction_description: "No student/teacher interaction for %{count} days"
-        subject: "Alert: %{user_name}"
-        ungraded_count_description: "%{count} or more assignments have not been graded"
-        usernote_description: "No faculty journal entries for %{count} days"
+          one: "Foi ativado um alerta para ti porque a condição seguinte foi cumprida:"
+          other: "Foi ativado um alerta para ti porque a condição seguinte foi cumprida:"
+        interaction_description: "Não há interações de estudante/facilitador á %{count} dias"
+        subject: "Alerta: %{user_name}"
+        ungraded_count_description: "%{count} ou mais submissões não foram avaliadas"
+        usernote_description: "Não há entradas no diário de facilitadores à %{count} dias"
       twitter: 
-        body: "An alert has been triggered for %{student}"
-        body_student: "An alert has been triggered for you"
+        body: "Foi ativado um alerta para %{student}"
+        body_student: "Foi ativado um alerta para ti"
     assignment_changed: 
       email: 
         body: |-
@@ -216,81 +216,81 @@
             
             Click here to view the assignment: 
             %{url}
-        subject: "Assignment Changed: %{title}, %{course}"
+        subject: "Alteração de Tarefa: %{title}, %{course}"
       facebook: 
-        body: "The assignment %{title_link} for %{course} has changed."
+        body: "Tarefa %{title_link} de %{course} foi alterada."
       sms: 
         body: |-
-            %{title}, %{course} has changed.
+            %{title}, %{course} foi alterada.
             
-            More info at %{website}
+            Mais info em %{website}
       summary: 
-        subject: "Assignment Changed: %{title}, %{course}"
+        subject: "Tarefa alterada: %{title}, %{course}"
       twitter: 
-        assignment_change: "Canvas Alert - Change: %{assignment_name}, %{course_name}"
+        assignment_change: "Alerta Campus - Alteração: %{assignment_name}, %{course_name}"
     assignment_created: 
       email: 
-        assignment_created: "Assignment Created - %{assignment_name}, %{course_name}"
-        due_at: "due: %{assignment_due_date_time}"
+        assignment_created: "Tarefa criada - %{assignment_name}, %{course_name}"
+        due_at: "Entrega: %{assignment_due_date_time}"
         labels: 
-          click_to_see_assignment: "Click here to view the assignment"
-        new_assignment: "A new assignment has been created for your course, %{course_name}"
-        no_due_date: "due: No Due Date"
+          click_to_see_assignment: "Clica aqui para ver a tarefa"
+        new_assignment: "Nova tarefa para o curso, %{course_name}"
+        no_due_date: "Entrega: Sem data mimite"
       facebook: 
-        due_at: "due: %{assignment_due_date_time}"
-        new_assignment: "A new assignment has been created for %{course_name}"
-        no_due_date: "due: No Due Date"
+        due_at: "Entrega: %{assignment_due_date_time}"
+        new_assignment: "Nova tarefa para %{course_name}"
+        no_due_date: "Entrega: Sem data limite"
       sms: 
-        due_at: "due: %{assignment_due_date_time}"
-        more_info: "More info at %{course_name}"
-        new_assignment: "New assignment for %{course_name}"
-        no_due_date: "due: No Due Date"
+        due_at: "Entrega: %{assignment_due_date_time}"
+        more_info: "Mais info em %{course_name}"
+        new_assignment: "Nova Tarefa para %{course_name}"
+        no_due_date: "Entrega: Sem data limite"
       summary: 
-        assignment_created: "Assignment Created - %{assignment_name}, %{course_name}"
-        due_at: "due: %{assignment_due_date_time}"
-        no_due_date: "due: No Due Date"
+        assignment_created: "Tarefa criada - %{assignment_name}, %{course_name}"
+        due_at: "Entrega: %{assignment_due_date_time}"
+        no_due_date: "Entrega: Sem data limite"
       twitter: 
-        assignment_change: "Canvas Alert - Change: %{assignment_name}, %{course_name}"
-        due_at: "due: %{assignment_due_date_time}"
-        no_due_date: "due: No Due Date"
+        assignment_change: "Alerta Campus - Alteração: %{assignment_name}, %{course_name}"
+        due_at: "Entrega: %{assignment_due_date_time}"
+        no_due_date: "Entrega: Sem data limite"
     assignment_due_date_changed: 
       email: 
-        assignment_due_date_changed: "Assignment Due Date Changed: %{assignment_name}, %{course_name}"
-        assignment_due_date_changed_sentence: "The due date for the assignment, %{assignment_name}, for the course, %{course_name}, has changed to:"
+        assignment_due_date_changed: "Alteração da data de entrega da tarefa: %{assignment_name}, %{course_name}"
+        assignment_due_date_changed_sentence: "A data de entrega da tarefa, %{assignment_name}, do curso, %{course_name}, foi alterada para:"
         labels: 
-          click_to_see_assignment: "Click here to view the assignment"
-        no_due_date: "No Due Date"
+          click_to_see_assignment: "Clica aqui para ver a tarefa"
+        no_due_date: "Sem data de entrega"
       facebook: 
-        assignment_due_date_changed_sentence: "The due date for the assignment *%{assignment_name}* for %{course_name}, has changed to:"
-        no_due_date: "No Due Date"
+        assignment_due_date_changed_sentence: "A data de entrega da tarefa, *%{assignment_name}* do curso %{course_name}, foi alterada para:"
+        no_due_date: "Sem data de entrega"
       sms: 
-        assignment_due_date_changed: "%{assignment_name}, %{course_name}, is now due:"
-        more_info_at_url: "More info at %{web_address}"
-        no_due_date: "No Due Date"
+        assignment_due_date_changed: "%{assignment_name}, %{course_name}, a data de entregue é agora:"
+        more_info_at_url: "Mais info em %{web_address}"
+        no_due_date: "Sem data de entrega"
       summary: 
-        assignment_due_date_changed: "Assignment Due Date Changed: %{assignment_name}, %{course_name}"
-        due_at: "due: %{assignment_due_date_time}"
-        no_due_date: "due: No Due Date"
+        assignment_due_date_changed: "A data de entrega da tarefa foi alterada: %{assignment_name}, %{course_name}"
+        due_at: "Entrega: %{assignment_due_date_time}"
+        no_due_date: "Entrega: Sem data limite"
       twitter: 
-        assignment_change: "Canvas Alert - Date Change: %{assignment_name}, %{course_name}"
-        due_at: "due: %{assignment_due_date_time}"
-        no_due_date: "due: No Due Date"
+        assignment_change: "Alerta Campus - Alteração de data de entrega: %{assignment_name}, %{course_name}"
+        due_at: "Entrega: %{assignment_due_date_time}"
+        no_due_date: "Entrega: Sem data de entrega"
     assignment_due_date_reminder: 
       email: 
-        assignment_due: "Due: %{assignment_name}, %{course_name}"
-        assignment_due_sentence: "This is a reminder that the assignment %{assignment_name}, for the course, %{course_name}, is due %{due_date}"
+        assignment_due: "Entrega: %{assignment_name}, %{course_name}"
+        assignment_due_sentence: "Lembrete da tarefa %{assignment_name}, do curso, %{course_name}, com data de entrega %{due_date}"
         labels: 
-          click_to_view_assignment: "Click here to view the assignment"
+          click_to_view_assignment: "Clica aqui para ver a tarefa"
       facebook: 
-        assignment_due_sentence: "This is a reminder that the assignment [%{assignment_name}](%{assignment_url}) for %{course_name} is due %{due_date}"
+        assignment_due_sentence: "Lembrete da tarefa [%{assignment_name}](%{assignment_url}) do curso %{course_name} com data de entrega %{due_date}"
       sms: 
-        assignment_is_due: "%{assignment_name}, %{course_name} is due %{due_date}"
-        more_info_at: "More info at %{web_address}"
+        assignment_is_due: "%{assignment_name}, %{course_name} tem data limite de entrega %{due_date}"
+        more_info_at: "Mais info em %{web_address}"
       summary: 
-        assignment_due: "Due: %{assignment_name}, %{course_name}"
-        assignment_is_due: "%{assignment_name}, %{course_name} is due %{due_date}"
+        assignment_due: "Entrega: %{assignment_name}, %{course_name}"
+        assignment_is_due: "%{assignment_name}, %{course_name} tem data limite de entrega %{due_date}"
       twitter: 
-        assignment_is_due: "Canvas Alert - Reminder: %{assignment_name}, %{course_name} is due %{due_date}"
+        assignment_is_due: "Alerta Campus - Lembrete: %{assignment_name}, %{course_name} tem data limite de entrega %{due_date}"
     assignment_graded: 
       email: 
         assignment_graded: "Assignment Graded: %{assignment_name}, %{course_name}"
