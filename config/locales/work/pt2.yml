@@ -293,78 +293,78 @@
         assignment_is_due: "Alerta Campus - Lembrete: %{assignment_name}, %{course_name} tem data limite de entrega %{due_date}"
     assignment_graded: 
       email: 
-        assignment_graded: "Assignment Graded: %{assignment_name}, %{course_name}"
+        assignment_graded: "Tarefa avaliada: %{assignment_name}, %{course_name}"
         labels: 
-          view_here: "You can view it here"
-        the_assignment_is_graded: "The assignment, %{assignment_name}, has been graded."
+          view_here: "Podes ver isso aqui"
+        the_assignment_is_graded: "A tarefa, %{assignment_name}, foi avaliada."
       facebook: 
-        the_assignment_is_graded: "The assignment, %{assignment_name}, has been graded."
+        the_assignment_is_graded: "A tarefa, %{assignment_name}, foi avaliada."
       sms: 
-        assignment_is_graded: "%{assignment_name}, %{course_name} has been graded."
-        more_info_at: "More info at %{web_address}"
+        assignment_is_graded: "%{assignment_name}, %{course_name} foi avaliada."
+        more_info_at: "Mais info em %{web_address}"
       summary: 
-        assignment_graded: "Assignment Graded: %{assignment_name}, %{course_name}"
-        the_assignment_is_graded: "The assignment, %{assignment_name}, has been graded."
+        assignment_graded: "Tarefa avaliada: %{assignment_name}, %{course_name}"
+        the_assignment_is_graded: "A tarefa, %{assignment_name}, foi avaliada."
       twitter: 
-        assignment_graded: "Canvas Alert - Graded: %{assignment_name}, %{course_name}"
+        assignment_graded: "Alerta Campus - Avaliação: %{assignment_name}, %{course_name}"
     assignment_grading_reminder: 
       email: 
         labels: 
-          click_to_view: "Click here to view the assignment"
-        ungraded_assignment: "Ungraded Assignment: %{assignment_name}, %{course_name}"
-        ungraded_assignment_sentence: "It looks like the assignment, %{assignment_name}, for the course, %{course_name}, hasn't been graded.  It was due %{due_date}."
+          click_to_view: "Clica aqui para ver a tarefa"
+        ungraded_assignment: "Tarefa não avaliada: %{assignment_name}, %{course_name}"
+        ungraded_assignment_sentence: "A tarefa, %{assignment_name}, do curso, %{course_name}, não foi avaliada.  Data limite de entrega %{due_date}."
       facebook: 
-        ungraded_assignment_sentence: "It looks like the assignment, [%{assignment_name}](%{assignment_url}), for the course, %{course_name}, hasn't been graded. It was due %{due_date}."
+        ungraded_assignment_sentence: "A tarefa, [%{assignment_name}](%{assignment_url}), do curso, %{course_name}, não foi avaliada. Data limite de entrega %{due_date}."
       sms: 
-        more_info_at: "More info at %{web_address}"
-        not_graded: "%{assignment_name}, %{course_name}, hasn't been graded, even though it was due %{due_date}"
+        more_info_at: "Mais info em %{web_address}"
+        not_graded: "%{assignment_name}, %{course_name}, não foi avaliada, apesar da data limite de entrega %{due_date}"
       summary: 
-        not_graded: "%{assignment_name}, %{course_name}, hasn't been graded. It was due %{due_date}"
-        ungraded_assignment: "Ungraded Assignment: %{assignment_name}, %{course_name}"
+        not_graded: "%{assignment_name}, %{course_name}, não foi avaliada. A data limite de entrega era %{due_date}"
+        ungraded_assignment: "Tarefa não avaliada: %{assignment_name}, %{course_name}"
       twitter: 
-        not_graded: "Canvas Alert - Reminder: grade %{assignment_name}, %{course_name}, due %{due_date}"
-    assignment_locked: "This assignment is currently locked."
-    assignment_locked_at: "This assignment was locked %{at}."
-    assignment_locked_module: "This assignment is part of the module *%{module}* and hasn't been unlocked yet."
-    assignment_locked_until: "This assignment is locked until %{date}."
+        not_graded: "Alert Campis - Lembrete: avaliação %{assignment_name}, %{course_name}, com data limite de entrega %{due_date}"
+    assignment_locked: "Esta tarefa está bloqueada."
+    assignment_locked_at: "Esta tarfa foi bloqueada %{at}."
+    assignment_locked_module: "Esta tarefa é parte da unidade *%{module}* e ainda não foi desbloqueada."
+    assignment_locked_until: "Esta tarefa está bloqueada até %{date}."
     assignment_publishing_reminder: 
       email: 
         labels: 
-          click_to_view: "Click here to view the assignment"
-        ungraded_assignment: "Unpublished Assignment: %{assignment_name}, %{course_name}"
-        ungraded_assignment_sentence: "The assignment, %{assignment_name}, for the course, %{course_name}, appears to have been graded, but not published.  Publishing assignments notifies students that their grades have been entered and finalized."
+          click_to_view: "Clica aqui para ver a tarefa"
+        ungraded_assignment: "Tarefa não publicada: %{assignment_name}, %{course_name}"
+        ungraded_assignment_sentence: "A tarefa, %{assignment_name}, do curso, %{course_name}, foi avaliada, mas não está publicado.  A publicação das tarefas notifica os estudantes da entrada de avaliações."
       facebook: 
-        ungraded_assignment_sentence: "The assignment *%{assignment_name}* for %{course_name} appears to have been graded, but not published. Publishing assignments notifies students that their grades have been entered and finalized."
+        ungraded_assignment_sentence: "A tarefa *%{assignment_name}* do curso %{course_name} foi avaliada, mas não publicada. A publicação das tarefas notifica os estudantes da entrada de avaliações."
       sms: 
-        more_info_at: "More info at %{web_address}"
-        ungraded_assignment_sentence: "%{assignment_name}, %{course_name}, still needs to be published so students know their grades are entered and official"
+        more_info_at: "Mais info em %{web_address}"
+        ungraded_assignment_sentence: "%{assignment_name}, %{course_name}, necessita de sr publicada. A publicação das tarefas notifica os estudantes da entrada de avaliações."
       summary: 
-        ungraded_assignment: "Unpublished Assignment: %{assignment_name}, %{course_name}"
-        ungraded_assignment_sentence: "%{assignment_name}, %{course_name}, hasn't been published, even though it's been graded."
+        ungraded_assignment: "Avaliação não publicada: %{assignment_name}, %{course_name}"
+        ungraded_assignment_sentence: "%{assignment_name}, %{course_name}, não foi publicada, apesar de ter sido avaliada."
       twitter: 
         ungraded_assignment_sentence: "Canvas Alert - Reminder: publish %{assignment_name}, %{course_name}"
     assignment_resubmitted: 
       email: 
         labels: 
-          view_submission: "You can view the submission here"
-        user_resubmitted: "Re-Submission: %{user_name}, %{assignment_name}"
-        user_resubmitted_sentence: "%{user_name} has just turned in a re-submission for %{assignment_name} in the course %{course_name}"
+          view_submission: "Podes ver o envio aqui"
+        user_resubmitted: "Reenvio: %{user_name}, %{assignment_name}"
+        user_resubmitted_sentence: "%{user_name} reenviou a tarefa %{assignment_name} do curso %{course_name}"
       facebook: 
-        click_to_view: "Click here to view the submission."
-        user_resubmitted: "**%{user_name}** has just turned in a re-submission for **%{assignment_name}** in the course %{course_name}"
+        click_to_view: "Clica aqui para ver o reenvio."
+        user_resubmitted: "**%{user_name}** reenviou, a tarefa **%{assignment_name}** do curso %{course_name}"
       sms: 
-        more_info_at: "More info at %{web_address}"
-        user_resubmitted: "%{user_name} just turned in their assignment (again), %{assignment_name}"
+        more_info_at: "Mais info em %{web_address}"
+        user_resubmitted: "%{user_name} reenviou a tarefa, %{assignment_name}"
       summary: 
-        turned_in_at: "turned in: %{submission_date}"
-        user_resubmitted: "Re-Submission: %{user_name}, %{assignment_name}"
+        turned_in_at: "enviado: %{submission_date}"
+        user_resubmitted: "Reenvio: %{user_name}, %{assignment_name}"
       twitter: 
-        user_resubmitted: "Canvas Alert - Resubmission: %{user_name}, %{assignment_name}"
+        user_resubmitted: "Alerta Campus - Reenvio: %{user_name}, %{assignment_name}"
     assignment_submitted: 
       email: 
         labels: 
-          view_submission: "You can view the submission here"
-        user_submitted: "Submission: %{user_name}, %{assignment_name}"
+          view_submission: "Podes ver o reenvio aqui"
+        user_submitted: "Reenvio: %{user_name}, %{assignment_name}"
         user_submitted_sentence: "%{user_name} has just turned in a submission for %{assignment_name} in the course %{course_name}"
       facebook: 
         click_to_view: "Click here to view the submission."
