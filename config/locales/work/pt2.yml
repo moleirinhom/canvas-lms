@@ -342,7 +342,7 @@
         ungraded_assignment: "Avaliação não publicada: %{assignment_name}, %{course_name}"
         ungraded_assignment_sentence: "%{assignment_name}, %{course_name}, não foi publicada, apesar de ter sido avaliada."
       twitter: 
-        ungraded_assignment_sentence: "Canvas Alert - Reminder: publish %{assignment_name}, %{course_name}"
+        ungraded_assignment_sentence: "Alerta Campus - Lembrete: publicação %{assignment_name}, %{course_name}"
     assignment_resubmitted: 
       email: 
         labels: 
