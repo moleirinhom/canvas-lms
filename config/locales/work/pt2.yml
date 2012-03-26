@@ -1028,20 +1028,20 @@
     page_locked_until: "Esta página está bloqueada até %{date}."
     pseudonym_registration: 
       email: 
-        body: "You have been registered for a Canvas account at %{account}!  Before you can log in and start using Canvas, you'll need to finish the configuration process."
-        link_message: "To finish the registration process, please visit the following url:"
-        subject: "Finish Registration: Canvas"
-    quiz_locked: "This quiz is currently locked."
-    quiz_locked_at: "This quiz was locked %{at}."
-    quiz_locked_module: "This quiz is part of the module *%{module}* and hasn't been unlocked yet."
-    quiz_locked_until: "This quiz is locked until %{date}."
+        body: "Foste registado para uma conta no Campus em %{account}!  Antes de iniciar sessão precisas de concluir o processo de configuração."
+        link_message: "Para concluir o processo de registo, segue o seguinte atalho:"
+        subject: "Registo concluido: Campus"
+    quiz_locked: "Este quiz está bloqueado."
+    quiz_locked_at: "Este quiz foi bloqueado %{at}."
+    quiz_locked_module: "Este quiz é parte da unidade *%{module}* e ainda não foi desbloqueado."
+    quiz_locked_until: "Este quiz está bloqueado até %{date}."
     report_generated: 
       email: 
-        link_message: "Click here to download the report:"
-        subject: "Report Generated"
+        link_message: "Clica aqui para fazer o download do relatório:"
+        subject: "Relatório criado"
     report_generation_failed: 
       email: 
-        subject: "Report Generation Failed"
+        subject: "Falha ao criar o relatório"
     rubric_assessment_invitation: 
       email: 
         body: "You've been invited by %{user} to assess their submission for %{rubric}:"
