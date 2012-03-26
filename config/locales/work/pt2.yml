@@ -1053,262 +1053,262 @@
         body: "You've been invited by %{user} to assess their submission for %{rubric}."
         more_info: "More info at %{url}"
       summary: 
-        body: "You've been invited by %{user} to assess their submission for %{rubric}:"
-        subject: "Assessment Invitation: %{rubric}, %{context}"
+        body: "Foste convidado por %{user} para avaliar o seu envio para %{rubric}:"
+        subject: "Convite de avaliação: %{rubric}, %{context}"
       twitter: 
-        tweet: "Canvas Alert - Invite: assess %{rubric}, %{user}"
+        tweet: "Alerta Campus - Convite: avaliar %{rubric}, %{user}"
     rubric_assessment_submission_reminder: 
       email: 
-        body: "You've been reminded to assess: %{rubric}, %{context}:"
-        link_message: "You can review the assessment and submit your entry here:"
-        subject: "Reminder to Assess: %{rubric}, %{context}"
+        body: "Foste relembrado da avaliação: %{rubric}, %{context}:"
+        link_message: "Podes rever a avaliação e submeter uma nova entrada aqui:"
+        subject: "Lembrete de avaliação: %{rubric}, %{context}"
       facebook: 
-        body: "You've been reminded to assess: *%{title}* for %{context}."
+        body: "Foste relembrado da avaliação: *%{title}* for %{context}."
       sms: 
-        body: "You've been reminded to assess: %{rubric}, %{context}."
-        more_info: "More info at %{url}"
+        body: "Foste relembrado da avaliação:: %{rubric}, %{context}."
+        more_info: "Mais info em %{url}"
       summary: 
-        body: "You've been reminded to assess: %{rubric}, %{context}:"
-        subject: "Reminder to Assess: %{rubric}, %{context}"
+        body: "Foste relembrado da avaliação: %{rubric}, %{context}:"
+        subject: "Lembrete de avaliação: %{rubric}, %{context}"
       twitter: 
-        tweet: "Canvas Alert - Reminder: assess %{rubric}, %{context}"
+        tweet: "Alerta Campus - Lembrete: avaliar %{rubric}, %{context}"
     rubric_association_created: 
       email: 
-        body: "A new assessment has been created for %{context}:"
-        link_message: "You can review the assessment and submit your entry here:"
-        subject: "New Assessment: %{title}, %{context}"
+        body: "Uma nova avaliação foi criada para %{context}:"
+        link_message: "Podes rever a avaliação e submeter uma nova entrada aqui:"
+        subject: "Nova avaliação: %{title}, %{context}"
       facebook: 
-        body: "A new assessment has been created for %{context}:"
+        body: "Uma nova avaliação foi criada para %{context}:"
       sms: 
-        body: "A new assessment has been created for %{context}."
-        more_info: "More info at %{url}"
+        body: "Uma nova avaliação foi criada para %{context}."
+        more_info: "Mais info em %{url}"
       summary: 
-        body: "A new assessment has been created for %{context}:"
-        subject: "New Assessment: %{title}, %{context}"
+        body: "Uma nova avaliação foi criada para %{context}:"
+        subject: "Nova avaliação: %{title}, %{context}"
       twitter: 
-        tweet: "Canvas Alert - New Assessment: %{title}, %{context}."
+        tweet: "Alerta Campus - Nova avaliação: %{title}, %{context}."
     submission_comment: 
       email: 
-        body: "%{author} just made a new comment on the submission for %{user} for %{assignment}"
-        link_message: "You can review the submission details here:"
-        someone: Someone
-        subject: "Submission Comment: %{user}, %{assignment}, %{context}"
+        body: "%{author} escreveu um novo comentário para %{user} na tarefa %{assignment}"
+        link_message: "Podes rever os detalhes aqui:"
+        someone: Alguém
+        subject: "Novo Comentário: %{user}, %{assignment}, %{context}"
       facebook: 
-        body: "*%{author}* just made a new comment on the submission for **%{user} for %{assignment}**."
-        someone: Someone
+        body: "*%{author}* escreveu um novo comentário para **%{user} na tarefa %{assignment}**."
+        someone: Alguém
       sms: 
-        body: "New comment by %{author} for %{assignment}, %{user}, %{context}."
-        more_info: "More info at %{url}"
+        body: "Novo Comentário de %{author} para a tarefa %{assignment}, %{user}, %{context}."
+        more_info: "Mais info em %{url}"
       summary: 
-        body: "%{author} just made a new comment on the submission for %{user} for %{assignment}."
-        someone: Someone
-        subject: "Submission Comment: %{user}, %{assignment}, %{context}"
+        body: "%{author} escreveu um novo comentário para %{user} na tarefa %{assignment}."
+        someone: Alguém
+        subject: "Novo Comentário: %{user}, %{assignment}, %{context}"
       twitter: 
-        tweet: "Canvas Alert - Comment: %{author} for %{assignment}, %{user}, %{context}."
+        tweet: "Alerta Campus - Comentário: %{author} para a tarefa %{assignment}, %{user}, %{context}."
     submission_comment_for_teacher: 
       email: 
-        body: "%{author} just made a new comment on the submission for %{user} for %{assignment}."
-        link_message: "You can review the submission details here:"
-        someone: Someone
-        subject: "Submission Comment: %{user}, %{assignment}, %{context}"
+        body: "%{author} escreveu um novo comentário para %{user} na tarefa %{assignment}."
+        link_message: "Podes rever os detalhes aqui:"
+        someone: Alguém
+        subject: "Novo Comentário: %{user}, %{assignment}, %{context}"
       facebook: 
-        body: "*%{author}* just made a new comment on the submission for **%{user} for %{assignment}**."
-        someone: Someone
+        body: "*%{author}* escreveu um novo comentário para **%{user} for %{assignment}**."
+        someone: Alguém
       sms: 
-        more_info: "More info at %{url}"
-        sms_body: "New comment by %{author} for %{assignment}, %{user}, %{context}."
+        more_info: "Mais info em %{url}"
+        sms_body: "Novo comentário de %{author} para a tarefa %{assignment}, %{user}, %{context}."
       summary: 
-        body: "%{author} just made a new comment on the submission for %{user} for %{assignment}."
-        someone: Someone
-        subject: "Submission Comment: %{user}, %{assignment}, %{context}"
+        body: "%{author} escreveu um novo comentário para %{user} para a tarefa %{assignment}."
+        someone: Alguém
+        subject: "Novo Comentário: %{user}, %{assignment}, %{context}"
       twitter: 
-        tweet: "Canvas Alert - Comment: %{author} for %{assignment}, %{user}, %{context}."
+        tweet: "Alerta Campus - Comentário: %{author} para a tarefa %{assignment}, %{user}, %{context}."
     submission_grade_changed: 
       email: 
-        body: "The grade on your assignment, %{assignment_title} has been changed."
-        link_message: "You can review the assignment here:"
-        no_date_set: "No Date Set"
+        body: "A avaliação da tua tarefa, %{assignment_title} foi alterada."
+        link_message: "Podes rever a tarefa aqui:"
+        no_date_set: "Sem datas estabelecidas"
         not_applicable: N/A
-        regraded_date: "re-graded: %{date}"
-        score: "score:  %{score} out of %{total}"
-        score_pending: "score pending review by the teacher"
-        subject: "Grade Changed: %{assignment}, %{context}"
+        regraded_date: "re-avaliado: %{date}"
+        score: "score:  %{score} num total de %{total}"
+        score_pending: "resultado pendente da revisão do facilitador"
+        subject: "Avaliação alterada: %{assignment}, %{context}"
       facebook: 
-        body: "The grade on your assignment, *%{title}* has been changed."
-        no_date_set: "No Date Set"
+        body: "A avaliação da tua tarefa, *%{title}* foi alterada."
+        no_date_set: "Sem datas estabelecidas"
         not_applicable: N/A
-        regraded_date: "re-graded: %{date}"
-        score: "score: %{score} out of %{total}"
-        score_pending: "score pending review by the teacher"
+        regraded_date: "re-avaliado: %{date}"
+        score: "score: %{score} num total de %{total}"
+        score_pending: "resultado pendente da revisão do facilitador"
       sms: 
-        body_sms: "Your grade for %{title}, %{context} just changed."
-        more_info: "More info at %{url}"
-        no_date_set: "No Date Set"
+        body_sms: "A tua avaliação para %{title}, %{context} foi alterada."
+        more_info: "Mais info em %{url}"
+        no_date_set: "Sem datas estabelecidas"
         not_applicable: N/A
-        regraded_date: "re-graded: %{date}"
-        score: "score:  %{score} out of %{total}"
-        score_pending: "score pending review by the teacher"
+        regraded_date: "re-avaliado: %{date}"
+        score: "score:  %{score} num total de %{total}"
+        score_pending: "resultado pendente da revisão do facilitador"
       summary: 
-        no_date_set: "No Date Set"
+        no_date_set: "Sem datas estabelecidas"
         not_applicable: N/A
-        regraded_date: "re-graded: %{date}"
-        score: "score:  %{score} out of %{total}"
-        score_pending: "score pending review by the teacher"
-        subject: "Grade Changed: %{title}, %{context}"
+        regraded_date: "re-avaliado: %{date}"
+        score: "score:  %{score} num total de %{total}"
+        score_pending: "resultado pendente da revisão do facilitador"
+        subject: "Avaliação alterada: %{title}, %{context}"
       twitter: 
-        no_date_set: "No Date Set"
+        no_date_set: "Sem datas estabelecidas"
         not_applicable: N/A
-        score: "score:  %{score} out of %{total}"
-        score_pending: "(pending review)"
-        tweet: "Canvas Alert - Grade Change: %{date}"
+        score: "score:  %{score} num total de %{total}"
+        score_pending: "(revisão pendente)"
+        tweet: "Alerta Campus - Avaliaçao alterada: %{date}"
     submission_graded: 
       email: 
-        body: "Your assignment, %{assignment}, has been graded."
-        graded_date: "graded: %{date}"
-        link_message: "You can review the assignment here:"
-        no_date_set: "No Date Set"
+        body: "A tua tarefa, %{assignment}, foi avaliada."
+        graded_date: "avaliado: %{date}"
+        link_message: "Podes rever a tarefa aqui:"
+        no_date_set: "Sem datas estabelecidas"
         not_applicable: N/A
-        score: "score:  %{score} out of %{total}"
-        score_pending_review: "score pending review by the teacher"
-        subject: "Assignment Graded: %{assignment}, %{context}"
+        score: "score:  %{score} num total de %{total}"
+        score_pending_review: "resultado pendente da revisão do facilitador"
+        subject: "Tarefa avaliada: %{assignment}, %{context}"
       facebook: 
-        body: "Your assignment, *%{title}*, has been graded."
-        graded_date: "graded: %{date}"
-        no_date_set: "No Date Set"
+        body: "A tua tarefa, *%{title}*, foi avaliada."
+        graded_date: "avaliado: %{date}"
+        no_date_set: "Sem datas estabelecidas"
         not_applicable: N/A
-        score: "score: %{score} out of %{total}"
-        score_pending_review: "score pending review by the teacher"
+        score: "score: %{score} num total de %{total}"
+        score_pending_review: "resultado pendente da revisão do facilitador"
       sms: 
-        graded_date: "graded: %{date}"
-        more_info: "More info at %{url}"
-        no_date_set: "No Date Set"
+        graded_date: "avaliado: %{date}"
+        more_info: "Mais info em %{url}"
+        no_date_set: "Sem datas estabelecidas"
         not_applicable: N/A
-        score: "score:  %{score} out of %{total}"
-        score_pending_review: "score pending review by the teacher"
-        sms_body: "%{assignment}, %{context} has been graded."
+        score: "score:  %{score} num total de %{total}"
+        score_pending_review: "resultado pendente da revisão do facilitador"
+        sms_body: "A tarefa %{assignment}, %{context} foi avaliada."
       summary: 
-        graded_date: "graded: %{date}"
-        no_date_set: "No Date Set"
+        graded_date: "avaliado: %{date}"
+        no_date_set: "Sem datas estabelecidas"
         not_applicable: N/A
-        score: "score:  %{score} out of %{total}"
-        score_pending_review: "score pending review by the teacher"
-        subject: "Assignment Graded: %{assignment}, %{context}"
+        score: "score:  %{score} num total de %{total}"
+        score_pending_review: "resultado pendente da revisão do facilitador"
+        subject: "Tarefa avaliada: %{assignment}, %{context}"
       twitter: 
-        no_date_set: "No Date Set"
+        no_date_set: "Sem datas estabelecidas"
         not_applicable: N/A
-        score: "score:  %{score} out of %{total}"
-        score_pending_review: "(pending review)"
-        tweet: "Canvas Alert - Graded: %{assignment}, %{context}"
+        score: "score:  %{score} num total de %{total}"
+        score_pending_review: "(revisão pendente)"
+        tweet: "Alerta Campus - Avaliação: %{assignment}, %{context}"
     summaries: 
       email: 
-        daily_body: "You're signed up to receive a daily report of some notifications from your Canvas account.  Below is the report for %{date}:"
-        notifications_link: "You can change your notification settings by visiting the following page:"
-        subject: "Recent Canvas Notifications"
-        weekly_body: "You're signed up to receive a weekly report of some notifications from your Canvas account.  Below is the report for the week ending %{date}:"
+        daily_body: "Subscreveste ao relatório de algumas notificações da tua conta no Campus.  Segue o relatório de %{date}:"
+        notifications_link: "Podes alterar as configurações das notificações aqui:"
+        subject: "Notificações recentes do Campus"
+        weekly_body: "Subscreveste ao relatório de algumas notificações da tua conta no Campus.  Segue o relatório da semana %{date}:"
       facebook: 
-        new_notifications: "You've received *%{notification_count} new notifications* in #Canvas#."
+        new_notifications: "Recebeste *%{notification_count} novas notificações* no #Campus#."
       sms: 
-        notifications_sms: "%{notifications_count} new notifications at %{url}"
+        notifications_sms: "%{notifications_count} novas notificações em %{url}"
       twitter: 
-        tweet: "Canvas Alert - %{notification_count} new notifications"
-    topic_locked: "This topic is currently locked."
-    topic_locked_at: "This topic was locked %{at}."
-    topic_locked_module: "This topic is part of the module *%{module}* and hasn't been unlocked yet."
-    topic_locked_until: "This topic is locked until %{date}."
+        tweet: "Alerta Campus - %{notification_count} novas notificações"
+    topic_locked: "Este tópico está bloqueado."
+    topic_locked_at: "Este tópico foi bloqueado %{at}."
+    topic_locked_module: "Este tópico é parte da unidade *%{module}* e ainda não foi desbloqueado."
+    topic_locked_until: "Este tópico está bloqueado até %{date}."
     updated_wiki_page: 
       email: 
-        body: "A page has been updated on the wiki for %{title} that may make your life easier."
-        link_message: "You can review it here: %{link}"
-        subject: "Updated Wiki Page: %{title}, %{user}"
+        body: "Foi atualizada uma página do wiki %{title}."
+        link_message: "Podes ver a página aqui: %{link}"
+        subject: "Página do Wiki atualizada: %{title}, %{user}"
       facebook: 
-        body: "A page has been updated on the wiki for %{title}."
+        body: "Foi atualizada uma página do wiki %{title}."
       sms: 
-        more_info: "More info at %{url}"
-        updated_message: "%{title}, %{user} just updated:"
+        more_info: "Mais info em %{url}"
+        updated_message: "%{title}, %{user} atualizado:"
       summary: 
-        subject: "Updated Wiki Page: %{title}, %{user}"
+        subject: "Página do Wiki atualizada: %{title}, %{user}"
       twitter: 
-        tweet: "Canvas Alert - Page Updated: %{title}, %{user}."
-    visit_modules_page: "*Visit the course modules page for information on how to unlock this content.*"
+        tweet: "Alerta Campus - Página atualizada: %{title}, %{user}."
+    visit_modules_page: "*Visita a página das unidades do curso para saber como desbloquear este conteúdo.*"
     web_conference_invitation: 
       email: 
-        body: "You've been invited to participate in a web conference, %{title} for %{name}."
-        details_link: "You can see the details here: %{link}"
-        subject: "Web Conference Invitation: %{name}"
+        body: "Foste convidado a participar numa conferência web, %{title} %{name}."
+        details_link: "Podes ver os detalhes aqui: %{link}"
+        subject: "Convite para Conferência Web: %{name}"
       facebook: 
-        body: "You've been invited to participate in a web conference, *%{title}* for #%{name}#."
+        body: "Foste convidado a participar numa conferência web, *%{title}* #%{name}#."
       sms: 
-        body: "You were invited to join a web conference, %{title} for %{name}."
-        link_message: "More info at %{url}"
+        body: "Foste convidado a participar numa conferência web, %{title} %{name}."
+        link_message: "Mais info em %{url}"
       summary: 
-        body: "You've been invited to participate in a web conference, %{title} for %{name}."
-        subject: "Web Conference Invitation: %{name}"
+        body: "Foste convidado a participar numa conferência web, %{title} %{name}."
+        subject: "Convite para Conferência Web: %{name}"
       twitter: 
-        tweet: "Canvas Alert - Invite: attend %{title}, %{name}"
+        tweet: "Alerta Campus - Convite: assistir %{title}, %{name}"
   mute_dialog: 
-    curving_assignments: "Curving assignments"
-    grade_change_notifications: "Grade change notifications"
-    how_to_unmute: "Once you have muted this assignment, you can begin sending notifications again by clicking the \"Unmute Assignment\" link."
-    mute_assignment: "Mute Assignment"
-    score_change_notifications: "Score change notifications"
-    see_grade: "Their grade for the assignment"
-    students_will_see: "Students will be able to see that this assignment is muted."
-    submission_comments: "Submission comments"
-    sure_you_want_to_mute: "Are you sure you want to mute this assignment? While this assignment is muted, students will not receive new notifications about or be able to see:"
+    curving_assignments: "Curvas das tarefas"
+    grade_change_notifications: "Notificações de alterações de avaliação"
+    how_to_unmute: "Podes começar a enviar notificações de novo clicando no atalho \"Ativar Tarefa\"."
+    mute_assignment: "Desativar tarefa"
+    score_change_notifications: "Notificações de alterações de resultados"
+    see_grade: "Resultados para a tarefa"
+    students_will_see: "Os estudantes vão poder ver que esta tarefa foi desativada."
+    submission_comments: "Novos Comentaŕios"
+    sure_you_want_to_mute: "Queres desativar esta tarefa? Quando a tarefa está desativada, os estudantes não recebem notificações, nem podem ver a tarefa:"
   not_applicable: N/A
   notification: 
-    added_to_conversation_description: "For conversations to which you're added"
-    all_submissions_description: "For all assignment submissions in courses you teach"
-    announcement_description: "For new announcements"
-    calendar_description: "For calendar changes"
+    added_to_conversation_description: "Das discussões das quais fazes parte"
+    all_submissions_description: "De todos os envios de tarefas dos cursos que facilitas"
+    announcement_description: "De novos anúncios"
+    calendar_description: "De alterações no calendário"
     categories: 
-      all_submissions: "All Submissions"
-      announcement: Announcement
-      calendar: Calendar
-      course_content: "Course Content"
-      discussion: Discussion
-      discussion_entry: DiscussionEntry
-      due_date: "Due Date"
-      files: Files
-      grading: Grading
-      grading_policies: "Grading Policies"
-      invitiation: Invitation
-      late_grading: "Late Grading"
-      membership_update: "Membership Update"
-      message: Message
-      other: Other
-      registration: Registration
-      reminder: Reminder
-      student_message: "Student Message"
-      submission_comment: "Submission Comment"
-    conversation_message_description: "For new conversation messages"
-    course_content_description: "For changes to course pages"
-    discussion_description: "For new topics"
-    discussion_entry_description: "For topics I've commented on"
-    due_date_description: "For due date changes"
-    files_description: "For new files"
-    grading_description: "For course grading alerts"
-    grading_policies_description: "For course grading policy changes"
-    invitation_description: "For new invitations"
-    late_grading_description: "For assignments turned in late"
-    message_description: "For new email messages"
-    missing_description_description: "For %{category} notifications"
+      all_submissions: "Todos os envios"
+      announcement: Anúncio
+      calendar: Calendário
+      course_content: "Conteúdo do curso"
+      discussion: Discussão
+      discussion_entry: EntradaDiscussão
+      due_date: "Data de entrega"
+      files: Ficheiros
+      grading: Avaliação
+      grading_policies: "Políticas de avaliação"
+      invitiation: Convite
+      late_grading: "Avaliação atrasada"
+      membership_update: "Atualização de subscrição"
+      message: Mensagem
+      other: Outros
+      registration: Registo
+      reminder: Lembrete
+      student_message: "Mensagem de estudante"
+      submission_comment: "Novo Comentário"
+    conversation_message_description: "De novas mensagens na discussão"
+    course_content_description: "De alterações das páginas do curso"
+    discussion_description: "De novos tópicos"
+    discussion_entry_description: "De tópicos que eu comentei"
+    due_date_description: "De alterações nas datas de entrega"
+    files_description: "De novos ficheiros"
+    grading_description: "De alertas de avaliações"
+    grading_policies_description: "De alterações na política de avaliação"
+    invitation_description: "De novos convites"
+    late_grading_description: "De tarefas com atraso na entrega"
+    message_description: "De novas mensagens de correio"
+    missing_description_description: "Para notificações de %{category}"
     names: 
-      account_user_notification: "Account User Notification"
-      account_user_registration: "Account User Registration"
-      added_to_conversation: "Added To Conversation"
-      alert: Alert
-      assignment_changed: "Assignment Changed"
-      assignment_created: "Assignment Created"
-      assignment_due_date_changed: "Assignment Due Date Changed"
-      assignment_due_date_reminder: "Assignment Due Date Reminder"
-      assignment_graded: "Assignment Graded"
-      assignment_grading_reminder: "Assignment Grading Reminder"
-      assignment_publishing_reminder: "Assignment Publishing Reminder"
-      assignment_resubmitted: "Assignment Resubmitted"
-      assignment_submitted: "Assignment Submitted"
-      assignment_submitted_late: "Assignment Submitted Late"
-      collaboration_invitation: "Collaboration Invitation"
+      account_user_notification: "Notificação do utilizador da conta"
+      account_user_registration: "Registo do utilizador da conta"
+      added_to_conversation: "Adicionado à Discussão"
+      alert: Alerta
+      assignment_changed: "Tarefa alterada"
+      assignment_created: "Tarefa criada"
+      assignment_due_date_changed: "Nova data de entrega de tarefa"
+      assignment_due_date_reminder: "Lembrete de data de entrega de tarefa"
+      assignment_graded: "Tarefa avaliada"
+      assignment_grading_reminder: "Lembrete de avaliação de tarefa"
+      assignment_publishing_reminder: "Lembrete de publicação de tarefa"
+      assignment_resubmitted: "Tarefa reenviada"
+      assignment_submitted: "Tarefa enviada"
+      assignment_submitted_late: "Tarefa enviada com atraso"
+      collaboration_invitation: "Convite de colaboração"
       confirm_email_communication_channel: "Confirm Email Communication Channel"
       confirm_registration: "Confirm Registration"
       confirm_sms_communication_channel: "Confirm Sms Communication Channel"
