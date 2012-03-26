@@ -212,9 +212,9 @@
     assignment_changed: 
       email: 
         body: |-
-            The assignment "%{title}" for %{course} has changed.  
+            A tarefa "%{title}" do curso %{course} foi alterada.  
             
-            Click here to view the assignment: 
+            Clica aqui para ver a tarefa: 
             %{url}
         subject: "Alteração de Tarefa: %{title}, %{course}"
       facebook: 
@@ -317,7 +317,7 @@
         ungraded_assignment_sentence: "A tarefa, [%{assignment_name}](%{assignment_url}), do curso, %{course_name}, não foi avaliada. Data limite de entrega %{due_date}."
       sms: 
         more_info_at: "Mais info em %{web_address}"
-        not_graded: "%{assignment_name}, %{course_name}, não foi avaliada, apesar da data limite de entrega %{due_date}"
+        not_graded: "%{assignment_name}, %{course_name}, não foi avaliada, apesar da data limite de entrega ser %{due_date}"
       summary: 
         not_graded: "%{assignment_name}, %{course_name}, não foi avaliada. A data limite de entrega era %{due_date}"
         ungraded_assignment: "Tarefa não avaliada: %{assignment_name}, %{course_name}"
@@ -363,150 +363,150 @@
     assignment_submitted: 
       email: 
         labels: 
-          view_submission: "Podes ver o reenvio aqui"
-        user_submitted: "Reenvio: %{user_name}, %{assignment_name}"
-        user_submitted_sentence: "%{user_name} has just turned in a submission for %{assignment_name} in the course %{course_name}"
+          view_submission: "Podes ver o envio aqui"
+        user_submitted: "Envio: %{user_name}, %{assignment_name}"
+        user_submitted_sentence: "%{user_name} enviou a tarefa %{assignment_name} do curso %{course_name}"
       facebook: 
-        click_to_view: "Click here to view the submission."
-        user_submitted: "**%{user_name}** has just turned in a submission for **%{assignment_name}** in the course %{course_name}"
+        click_to_view: "Clica aqui para ver o envio."
+        user_submitted: "**%{user_name}** enviou a tarefa **%{assignment_name}** do curso %{course_name}"
       sms: 
-        more_info_at: "More info at %{web_address}"
-        user_submitted: "%{user_name} just turned in their assignment, %{assignment_name}"
+        more_info_at: "Mais info em %{web_address}"
+        user_submitted: "%{user_name} enviou a tarefa, %{assignment_name}"
       summary: 
-        turned_in_at: "turned in: %{submission_date}"
-        user_submitted: "Submission: %{user_name}, %{assignment_name}"
+        turned_in_at: "Entregou em: %{submission_date}"
+        user_submitted: "Envio: %{user_name}, %{assignment_name}"
       twitter: 
-        user_submitted: "Canvas Alert - Submission: %{user_name}, %{assignment_name}"
+        user_submitted: "Alerta Campus - Envio %{user_name}, %{assignment_name}"
     assignment_submitted_late: 
       email: 
         labels: 
-          view_submission: "You can view the submission here"
-        user_resubmitted_sentence: "%{user_name} has just turned in a late submission for %{assignment_name} in the course %{course_name}"
-        user_submitted: "Late Assignment: %{user_name}, %{assignment_name}"
+          view_submission: "Podes ver os envios aqui"
+        user_resubmitted_sentence: "%{user_name} enviou, com atraso, a tarefa %{assignment_name} do curso %{course_name}"
+        user_submitted: "Envio com atraso: %{user_name}, %{assignment_name}"
       facebook: 
-        click_to_view: "Click here to view the submission."
-        user_resubmitted_sentence: "**%{user_name}** has just turned in a late submission for **%{assignment_name}** in the course %{course_name}"
+        click_to_view: "Clica aqui para ver o envio."
+        user_resubmitted_sentence: "**%{user_name}** enviou, com atraso, a tarefa **%{assignment_name}** do curso %{course_name}"
       sms: 
-        more_info_at: "More info at %{web_address}"
-        user_submitted: "%{user_name} just turned in their assignment (late), %{assignment_name}"
+        more_info_at: "Mais info em %{web_address}"
+        user_submitted: "%{user_name} enviou, com atraso, a tarefa, %{assignment_name}"
       summary: 
-        turned_in_at: "turned in: %{submission_date}"
-        user_submitted: "Late Assignment: %{user_name}, %{assignment_name}"
+        turned_in_at: "Envio: %{submission_date}"
+        user_submitted: "Envio con atraso: %{user_name}, %{assignment_name}"
       twitter: 
-        user_submitted: "Canvas Alert - Late Submission: %{user_name}, %{assignment_name}"
+        user_submitted: "Alerta Campus - Envio com atraso: %{user_name}, %{assignment_name}"
     assignment_unmuted: 
       email: 
         body: |-
-            Your instructor has released grade changes and new comments for %{title}. These changes are now viewable.
+            O facilitador publicou novas avaliações e novos comentários para %{title}. As alterações já estão disponíveis.
             
-            Your can view it here:
+            Podes ver isso aqui:
             %{url}
-        subject: "Assignment Unmuted: %{title}, %{course}"
+        subject: "Tarefa ativada: %{title}, %{course}"
       sms: 
         body: |-
-            Your instructor has released grades and comments for %{title}, %{course}.
+            O facilitador publicou as avaliações e comentários para %{title}, %{course}.
             
-            More info at %{website}
+            Mais info em %{website}
       summary: 
-        subject: "Grades and comments released for: %{title}, %{course}"
+        subject: "Avaliações e comentários publicados para: %{title}, %{course}"
     collaboration_invitation: 
       email: 
         body: |-
-            You've been invited to collaborate on a document, %{document} for
-            %{course_or_group}.  The document was created in %{service}
-            and you were invited using your email address, %{email}.
+            Foste convidado a colaborar num documento, %{document} para
+            %{course_or_group}.  O documento foi criado em %{service}
+            e foste convidado com o teu endereço de email, %{email}.
             
-            If that's the wrong email address for this type of collaboration, you'll need to
-            change your profile settings or register with %{service}.
+            Se o endereço de email estiver incorreto para este tipo de colaboração, deves 
+            alterar as configurações do teu perfil ou registar-te em %{service}.
             
-            You can see the details here:
+            Podes ver os detalhes aqui:
             %{link}
         body_with_user: |-
-            You've been invited to collaborate on a document, %{document} for
-            %{course_or_group}.  The document was created by %{user}
-            in %{service} and you were invited using your email address, %{email}.
+            Foste convidado a colaborar num documento, %{document} para
+            %{course_or_group}.  O documento foi criado por %{user}
+            em %{service} e foste convidado com o teu endereço de email, %{email}.
             
-            If that's the wrong email address for this type of collaboration, you'll need to 
-            change your profile settings or register with %{service}.
+            Se o endereço de email estiver incorreto para este tipo de colaboração, deves 
+            alterar as configurações do teu perfil ou registar-te em %{service}.
             
-            You can see the details here:
+            Podes ver os detalhes aqui:
             %{link}
-        subject: "Collaboration Invitation: %{course_or_group}"
+        subject: "Convite de colaboração: %{course_or_group}"
       facebook: 
-        body: "You've been invited to collaborate on a document, %{document} for %{course_or_group}. The document was created in %{service}."
-        body_with_user: "You've been invited to collaborate on a document, %{document} for %{course_or_group}. The document was created by %{user} in %{service}."
+        body: "Foste convidado a colaborar num documento, %{document} para %{course_or_group}. O documento foi criado em %{service}."
+        body_with_user: "Foste convidado a colaborar num documento, %{document} para %{course_or_group}. O documento foi criado por %{user} em %{service}."
       sms: 
         body: |-
-            You were invited to collaborate on a document, %{document} for %{course_or_group}.
+            Foste convidado a colaborar num documento, %{document} para %{course_or_group}.
             
-            More info at %{link}
+            Mais info em %{link}
       summary: 
         body: |-
-            You've been invited to collaborate on a document, %{document} for
-            %{course_or_group}.  The document was created in %{service}
-            and you were invited using your email address, %{email}.
+            Foste convidado a colaborar num documento, %{document} para
+            %{course_or_group}.  O documento foi criado em %{service}
+            e foste convidado com o teu endereço de email, %{email}.
         body_with_user: |-
-            You've been invited to collaborate on a document, %{document} for
-            %{course_or_group}.  The document was created by %{user}
-            in %{service} and you were invited using your email address, %{email}.
-        subject: "Collaboration Invitation: %{course_or_group}"
+            Foste convidado a colaborar num documento, %{document} para
+            %{course_or_group}.  O documento foi criado por %{user}
+            em %{service} e foste convidado com o teu endereço de email, %{email}.
+        subject: "Convite de colaboração: %{course_or_group}"
       twitter: 
-        body: "Canvas Alert - Collaboration Invite: %{document}, %{course_or_group}"
+        body: "Alerta Campus - Convite de colaboração: %{document}, %{course_or_group}"
     confirm_email_communication_channel: 
       email: 
-        body: "The email address, %{email} is being registered at %{website} for the user, %{user}."
-        details: "To confirm this registration, please visit the following url:"
-        subject: "Confirm Email: Canvas"
+        body: "O endereço de email, %{email} foi registado em %{website} pelo utilizador, %{user}."
+        details: "Para confirmar este registo, segue o seguinte url:"
+        subject: "Confirmação de endereço de Email: Campus"
     confirm_registration: 
       email: 
-        body: "Thank you for registering with Canvas!  This email is confirmation that the user %{user} is registering for a new account at %{website}."
-        details: "To finish the registration process, please visit the following url:"
-        subject: "Confirm Registration: Canvas"
+        body: "Agradeçemos o teu registo no Campus! Este email confirma que o utilizador %{user} está registado em %{website}."
+        details: "Para concluir o processo de registo, segue o seguinte url:"
+        subject: "Confirmaçãp de registo: Campus"
     confirm_sms_communication_channel: 
       sms: 
         body: |-
-            Confirm Canvas registration w/ code:
+            Confirmação de registo no Campus com o código:
             
             %{confirmation_code}
             
-            for %{user} by visiting %{website}.
+            para %{user} visitando %{website}.
     content_export_failed: 
       email: 
         body: |-
-            There was a problem exporting the course "%{course}".
-            Please notify your system administrator, and give them the following export identifier: %{id}.
-        subject: "Course Export Failed: %{course}"
+            Falha na exportação do curso "%{course}".
+            Notifica, por favor, o administrador, e envia-lhe o identificador: %{id}.
+        subject: "Exportação do curso falhou: %{course}"
     content_export_finished: 
       email: 
-        body: "Your course export for \"%{course}\" has finished."
-        subject: "Course Export Finished: %{course}"
-    content_locked: "This quiz is currently locked."
-    content_locked_at: "This content was locked %{at}."
-    content_locked_module: "This content is part of the module *%{module}* and hasn't been unlocked yet."
-    content_locked_until: "This content is locked until %{date}."
+        body: "A exportação do curso \"%{course}\" foi concluida."
+        subject: "Exportação do curso concluida: %{course}"
+    content_locked: "Este quiz está bloqueado."
+    content_locked_at: "Este conteúdo está bloqueado %{at}."
+    content_locked_module: "Este conteúdo é parte da unidade *%{module}* e ainda não foi desbloqueado."
+    content_locked_until: "Este conteúdo está bloqueado até %{date}."
     conversation_message: 
       email: 
-        attached_files: "Attached Files:"
-        audio_comment: "This message includes media comments. To listen or reply, click the link below:"
-        body: "%{user_name} just sent you a message in Canvas:"
-        reply_message: "To reply to this message, click the link below:"
-        subject: "%{user_name} just sent you a message in Canvas."
-        unknown_user: "Unknown User"
+        attached_files: "Ficheiro anexados:"
+        audio_comment: "Esta mensagem contém comentários mídia. Para ouvir ou responder, clica no link seguinte:"
+        body: "%{user_name} enviou-te uma mensagem no Campus:"
+        reply_message: "Para responder à mensagem, clica no link seguinte:"
+        subject: "%{user_name} enviou-te uma mensagem no Campus."
+        unknown_user: "Utilizador desconhecido"
       facebook: 
-        body: "%{user_name} just sent you a message in Canvas."
-        link_text: "View Message"
-        unknown_user: "Unknown User"
+        body: "%{user_name} enviou-te uma mensagem no Campus."
+        link_text: "Ver Mensagem"
+        unknown_user: "Utilizador desconhecido"
       sms: 
-        body: "%{user_name} just sent you a message in Canvas:"
-        more_info: "More info at %{url}"
-        unknown_user: "Unknown User"
+        body: "%{user_name} enviou-te uma mensagem no Campus:"
+        more_info: "Mais info em %{url}"
+        unknown_user: "Utilizador desconhecido"
       summary: 
-        body: "%{user_name} just sent you a message in Canvas:"
-        subject: "%{user_name} just sent you a message in Canvas."
-        unknown_user: "Unknown User"
+        body: "%{user_name} enviou-te uma mensagem no Campus:"
+        subject: "%{user_name} enviou-te uma mensagem no Campus."
+        unknown_user: "Utilizador desconhecido"
       twitter: 
-        tweet: "Canvas Alert - Message from %{user_name}."
-        unknown_user: "Unknown User"
+        tweet: "Alerta Campus - Mensagem de %{user_name}."
+        unknown_user: "Utilizador desconhecido"
     enrollment_accepted: 
       email: 
         body_designer: "%{user} justed accept their invitation to participate in the course, %{course}, as a designer."
