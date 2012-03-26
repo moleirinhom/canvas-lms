@@ -794,238 +794,238 @@
         course_group: "Alerta Campus - Subscrição ao grupo não aceite: %{group_name} para o curso %{course_name}."
     merge_email_communication_channel: 
       email: 
-        body: "An account has been created for you at %{url}, but you already have a Canvas account.  If you would like to merge them together, please visit the following url:"
-        subject: "New Canvas Account"
+        body: "Foi criada uma conta em %{url}, mas já tens conta no Campus.  Se pretenderes unir as contas, visita o seguinte atalho:"
+        subject: "Nova conta Campus"
     migration_export_ready: 
       email: 
-        body: "The extraction process for the course, %{course_name}, has completed. The content is now ready to be imported into your course."
-        link_message: "To finish importing content into %{course_name} you'll need to click the following link:"
-        subject: "Course Extraction Ready: %{course_name}"
+        body: "O processo de extração do curso, %{course_name}, está concluido. O conteúdo pode ser importado para o teu curso."
+        link_message: "Para concluir a importação do conteúdo para o curso %{course_name} clica no atalho seguinte:"
+        subject: "Extração do curso ompleta: %{course_name}"
     migration_import_failed: 
       email: 
-        body: "There was a problem importing %{source} into %{destination}.  Only some of the content could be successfully imported.  Please notify your system administrator, and give them the following error code: \"%{error_code}\"."
-        subject: "Content Import Failed: %{course_name}"
+        body: "Houve um problema ao importar %{source} para %{destination}.  Só alguns dos conteúdos podem ser importados com sucesso. Notifica o administrador com o código seguinte: \"%{error_code}\"."
+        subject: "Falha na importação do conteúdo: %{course_name}"
     migration_import_finished: 
       email: 
-        body_no_warnings: "Importing %{source} into %{destination} has finished.  Everything you selected should now be imported into your course."
-        body_with_warnings: "Importing %{source} into %{destination} has finished, but not everything was imported successfully: %{warnings}"
-        subject: "Course Import Finished: %{course_name}"
+        body_no_warnings: "A importação de %{source} para %{destination} está concluida. O que está selecionado pode ser importado para o teu curso."
+        body_with_warnings: "A importação de %{source} para %{destination} está concluida, mas não foi tudo importado com sucesso: %{warnings}"
+        subject: "Importação do curso concluida: %{course_name}"
       summary: 
-        body_no_warnings: "Importing %{source} into %{target} has finished.  Everything you selected should now be imported into your course."
-        body_with_warnings: "Importing %{source} into %{target} has finished, but not everything was imported successfully: %{warnings}"
-        subject: "Course Import Finished: %{course_name}"
+        body_no_warnings: "A importação de %{source} para %{target} está concluida  O que está selecionado pode ser importado para o teu curso."
+        body_with_warnings: "A importação de %{source} para %{target} está concluida, mas não foi tudo importado com sucesso: %{warnings}"
+        subject: "Importação do curso concluida: %{course_name}"
     new_account_user: 
       email: 
-        body: "New Account Admin for %{account}"
-        details: "A new admin, %{user}, has been added for the account %{account}"
-        subject: "New Account User"
+        body: "Nova conta de administrador para %{account}"
+        details: "Um novo administrador, %{user}, foi adicionado à conta %{account}"
+        subject: "Nova conta de utilizador"
       facebook: 
-        body: "A new admin **%{user}** has been added for the account **%{account}**."
-        subject: "New Account Admin for %{account}"
+        body: "Um novo administrador **%{user}** foi adicionado à conta **%{account}**."
+        subject: "Nova conta de administrador para %{account}"
       sms: 
-        body: "A new admin, %{user}, has been added for the account %{account}"
-        details: "More info at %{website}"
+        body: "Um novo administrador, %{user},foi adicionado à conta %{account}"
+        details: "Mais info em %{website}"
       summary: 
-        body: "A new admin, %{user}, has been added for the account %{account}"
-        subject: "New Account User"
+        body: "Um novo administrador, %{user}, foi adicionado à conta %{account}"
+        subject: "Nova conta de utilizador"
       twitter: 
-        body: "Canvas Alert - New Admin: %{user}, %{account}"
+        body: "Alerta Campus - Novo administrador: %{user}, %{account}"
     new_announcement: 
       email: 
         labels: 
-          file_included: "File Included"
+          file_included: "Ficheiro incluido"
       facebook: 
-        body: "New Announcement: %{title}, %{course}"
+        body: "Novo anúncio: %{title}, %{course}"
       sms: 
-        details: "More info at %{url}"
-        subject: "New announcement: %{title}, %{course}"
+        details: "Mais info em %{url}"
+        subject: "Novo anúncio: %{title}, %{course}"
       twitter: 
-        body: "Canvas Alert - Announcement: %{title}, %{course}."
+        body: "Alerta Campus - Anúncio: %{title}, %{course}."
     new_context_group_membership: 
       email: 
-        body_account: "You've been added to a new group for the account %{account}.  The name of the group is %{group_name}."
-        body_course: "You've been added to a new group for the course %{course}.  The name of the group is %{group_name}."
-        details_account: "You can see which groups you're a part of for this account by clicking the link below:"
-        subject: "New Group Membership for %{course_or_account}"
-        title: "New Group Membership: %{group_name}"
+        body_account: "Foste adicionado a um grupo novo na conta %{account}.  O nome do grupo é %{group_name}."
+        body_course: "Foste adicionado a um grupo novo mo curso %{course}.  O nome do grupo é %{group_name}."
+        details_account: "Podes ver os grupos dos quais fazes parte com esta conta no seguinte atalho:"
+        subject: "Nova subscrição de grupo para %{course_or_account}"
+        title: "Novo subscrição de grupo: %{group_name}"
       facebook: 
-        body_account: "You've been added to a new group for the account %{account}. The name of the group is %{group_name}."
-        body_course: "You've been added to a new group for the course %{course}. The name of the group is %{group_name}."
+        body_account: "Foste adicionado a um grupo novo na conta %{account}. O nome do grupo é %{group_name}."
+        body_course: "Foste adicionado a um grupo novo no curso %{course}. O nome do grupo é %{group_name}."
       sms: 
-        body_account: "You've been added to a new group for the account %{account}.  The name of the group is %{group_name}."
-        body_course: "You've been added to a new group for the course %{course}.  The name of the group is %{group_name}."
-        details: "More info at %{url}"
+        body_account: "Foste adicionado a um grupo novo na conta %{account}.  O nome do grupo é %{group_name}."
+        body_course: "Foste adicionado a um grupo novo no curso %{course}.  O nome do grupo é %{group_name}."
+        details: "Mais info em %{url}"
       summary: 
-        body_account: "You've been added to a new group for the account %{account}.  The name of the group is %{group_name}."
-        body_course: "You've been added to a new group for the course %{course}.  The name of the group is %{group_name}."
-        subject: "New Group Membership for %{course_or_account}"
+        body_account: "Foste adicionado a um grupo novo na conta %{account}.  O nome do grupo é %{group_name}."
+        body_course: "Foste adicionado a um grupo novo no curso %{course}.  O nome do grupo é %{group_name}."
+        subject: "Novo subscrição de grupo para %{course_or_account}"
       twitter: 
-        body_account: "Canvas Alert - New Group: %{group} for the account %{account}"
-        body_course: "Canvas Alert - New Group: %{group} for the course %{course}"
+        body_account: "Alerta Campus - Novo grupo: %{group} para a conta %{account}"
+        body_course: "Alerta Campus - Novo grupo: %{group} para o curso %{course}"
     new_context_group_membership_invitation: 
       email: 
-        body_account: "You've been invited to join the group %{group} for the account %{account}."
-        body_course: "You've been invited to join the group %{group} for the course %{course}."
-        details: "You can check out the group by clicking the link below:"
-        subject: "New Group Membership for %{course_or_account}"
-        title: "New Group Membership: %{group_name}"
+        body_account: "Foste convidado para o grupo %{group} para a conta %{account}."
+        body_course: "Foste convidado para o grupo %{group} para o curso %{course}."
+        details: "Podes ver o grupo no atalho:"
+        subject: "Nova subscrição de grupo para %{course_or_account}"
+        title: "Nova subscrição de grupo: %{group_name}"
       facebook: 
-        body_account: "You've been invited to join the group %{group} for the account %{account}."
-        body_course: "You've been invited to join the group %{group} for the course %{course}."
+        body_account: "Foste convidado para o grupo %{group} para a conta %{account}."
+        body_course: "Foste convidado para o grupo %{group} para o curso %{course}."
       sms: 
-        body_account: "You've been invited to join the group %{group} for the account %{account}."
-        body_course: "You've been invited to join the group %{group} for the course %{course}."
+        body_account: "Foste convidado para o grupo %{group} para a conta %{account}."
+        body_course: "Foste convidado para o grupo %{group} para o curso %{course}."
         details: "More info at %{url}"
       summary: 
-        body_account: "You've been invited to join the group %{group} for the account %{account}."
-        body_course: "You've been invited to join the group %{group} for the course %{course}."
-        subject: "New Group Membership for %{course_or_account}"
+        body_account: "Foste convidado para o grupop %{group} para a conta %{account}."
+        body_course: "Foste convidado para o grupo %{group} para o curso %{course}."
+        subject: "Nova subscrição de grupo para %{course_or_account}"
       twitter: 
-        body_account: "Canvas Alert - Invitation: %{group} for the account %{account}"
-        body_course: "Canvas Alert - Invitation: %{group} for the course %{course}."
+        body_account: "Alerta Campus - Convite: %{group} para a conta %{account}"
+        body_course: "Alerta Campus - Convite: %{group} para o curso %{course}."
     new_course: 
       email: 
-        body: "A course, %{course}, has been added for the account %{account}"
+        body: "Foi adicionado um curso, %{course} para a conta %{account}"
         labels: 
-          teachers: Teachers
-        subject: "New Course"
-        title: "New Course for %{account}"
+          teachers: Facilitadores
+        subject: "Novo Curso"
+        title: "Novo Curso para %{account}"
       facebook: 
-        body: "A new course **%{course}** has been added for the account **%{account}**."
+        body: "Foi adicionado um novo curso **%{course}** para a conta **%{account}**."
         labels: 
-          teachers: Teachers
-        subject: "New Course for %{account}"
+          teachers: Facilitadores
+        subject: "Novo curso para %{account}"
       sms: 
-        body: "A new course, %{course}, has been added for the account %{account}"
-        details: "More info at %{url}"
+        body: "Foi adicionado um novo curso, %{course}, para a conta %{account}"
+        details: "Mais info em %{url}"
         labels: 
-          teachers: Teachers
+          teachers: Facilitadores
       summary: 
-        body: "A new course, %{course}, has been added for the account %{account}"
+        body: "Foi adicionado um novo curso, %{course}, para a conta %{account}"
         labels: 
-          teachers: Teachers
-        subject: "New Course"
+          teachers: Facilitadores
+        subject: "Novo Curso"
       twitter: 
-        body: "Canvas Alert - New Course: %{course}, %{account}"
+        body: "Alerta Campus - Novo Curso: %{course}, %{account}"
     new_discussion_entry: 
       email: 
-        body: "%{user} posted a new comment on the thread %{discussion_topic} for %{course}:"
-        details: "Join the conversation here:"
-        subject: "New Comment for %{discussion_topic}: %{course}"
+        body: "%{user} publicou um novo comentário no tópico %{discussion_topic} do curso %{course}:"
+        details: "Junta-te à discussão aqui:"
+        subject: "Novo comentário em %{discussion_topic}: %{course}"
       facebook: 
-        body: "New Comment for %{discussion_topic}, %{course}"
+        body: "Novo comentário em %{discussion_topic}, %{course}"
       sms: 
-        body: "New Comment for %{discussion_topic}: %{course}"
-        details: "More info at %{url}"
+        body: "Novo comentário em %{discussion_topic}: %{course}"
+        details: "Mais info em %{url}"
       summary: 
-        subject: "New Comment for %{discussion_topic}: %{course}"
+        subject: "Novo comentário em %{discussion_topic}: %{course}"
       twitter: 
-        body: "Canvas Alert - Comment: %{discussion_topic}, %{course}."
+        body: "Alerta Campus - Comentário: %{discussion_topic}, %{course}."
     new_discussion_topic: 
       email: 
-        body: "A new discussion has been started that may be interesting to you:"
-        details: "Join the conversation here:"
+        body: "Começou um nova discussão que pode ser do teu interesse:"
+        details: "Junta-te à discussão aqui:"
         labels: 
-          file_included: "File Included"
-        subject: "New Discussion - %{discussion_topic}: %{course}"
+          file_included: "Ficheiro incluido"
+        subject: "Nova Discussão - %{discussion_topic}: %{course}"
       facebook: 
-        body: "New Forum Topic: %{discussion_topic}, %{course}"
+        body: "Novo Tópico no Forum: %{discussion_topic}, %{course}"
       sms: 
-        body: "New Topic for %{course}:"
-        details: "More info at %{url}"
+        body: "Novo Tópico em %{course}:"
+        details: "Mais info em %{url}"
       summary: 
-        subject: "New Discussion - %{discussion_topic}: %{course}"
+        subject: "Nova Discussão - %{discussion_topic}: %{course}"
       twitter: 
-        subject: "Canvas Alert - Topic: %{discussion_topic}, %{course}"
+        subject: "Alerta Campus - Tópico: %{discussion_topic}, %{course}"
     new_event_created: 
       email: 
-        body: "There's a new event scheduled for %{course_name} that you should be aware of:"
-        from_to_time: "from %{start_date_time} to %{end_date_time}"
+        body: "Há um novo evento programado para o curso %{course_name}:"
+        from_to_time: "desde %{start_date_time} até %{end_date_time}"
         labels: 
-          see_details: "You can see details here"
-        no_time_set: "No Time Set"
-        subject: "New Event - %{event_title}, %{course_name}"
+          see_details: "Podes ver os detalhes aqui"
+        no_time_set: "Sem tempo estabelecido"
+        subject: "Novo Evento - %{event_title}, %{course_name}"
       facebook: 
-        body: "There's a new event scheduled for %{course_name}:"
-        from_to_time: "from %{start_date_time} to %{end_date_time}"
-        no_time_set: "No Time Set"
+        body: "Há um novo evento programado para o curso %{course_name}:"
+        from_to_time: "desde %{start_date_time} até %{end_date_time}"
+        no_time_set: "Sem tempo estabelecido"
       sms: 
-        from_to_time: "from %{start_date_time} to %{end_date_time}"
-        more_info: "More info at %{web_address}"
-        no_time_set: "No Time Set"
-        subject: "New event for %{course_name}:"
+        from_to_time: "desde %{start_date_time} até %{end_date_time}"
+        more_info: "Mais info em %{web_address}"
+        no_time_set: "Sem tempo estabelecido"
+        subject: "Novo evento para o curso %{course_name}:"
       summary: 
-        from_to_time: "from %{start_date_time} to %{end_date_time}"
-        no_time_set: "No Time Set"
-        subject: "New Event - %{event_title}, %{course_name}"
+        from_to_time: "desde %{start_date_time} até %{end_date_time}"
+        no_time_set: "Sem tempo estabelecido"
+        subject: "Novo Evento - %{event_title}, %{course_name}"
       twitter: 
-        from_to_time: "from %{start_date_time} to %{end_date_time}"
-        no_time_set: "No Time Set"
-        subject: "Canvas Alert - Event: %{event_title}, %{course_name}"
+        from_to_time: "desde %{start_date_time} até %{end_date_time}"
+        no_time_set: "Sem tempo estabelecido"
+        subject: "Alerta Campus - Evento: %{event_title}, %{course_name}"
     new_student_organized_group: 
       email: 
-        body_account: "A new student organized group named \"%{group_name}\" was created for the account %{account}. The first member is %{user}."
-        body_course: "A new student organized group named \"%{group_name}\" was created for the course %{course}. The first member is %{user}."
-        details: "You can see details for this group by clicking the link below:"
-        subject: "New Student Group for %{course_or_account}"
-        title: "New Student Group: %{group_name}"
+        body_account: "Um grupo novo organizado por estudantes chamado \"%{group_name}\" foi criado para a conta %{account}. O primeiro membro é %{user}."
+        body_course: "Um grupo novo organizado por estudantes chamado \"%{group_name}\" foi criado para o curso %{course}. O primeiro membro é %{user}."
+        details: "Podes ver os detalhes do grupo aqui:"
+        subject: "Novo grupo de estudantes para %{course_or_account}"
+        title: "Novo grupo de estudantes: %{group_name}"
       facebook: 
-        body_account: "A new student organized group named %{group_name} was created for the account %{account}. The first member is %{user}."
-        body_course: "A new student organized group named %{group_name} was created for the course %{course}. The first member is %{user}."
+        body_account: "Um grupo novo organizado por estudantes chamado %{group_name} foi criado para a conta %{account}. O primeiro membro é %{user}."
+        body_course: "Um grupo novo organizado por estudantes chamado %{group_name} foi criado para o curso %{course}. O primeiro membro é %{user}."
       sms: 
-        body_account: "A new group named \"%{group_name}\" was created for the account %{account}. The first member is %{user}."
-        body_course: "A new group named \"%{group_name}\" was created for the course %{course}. The first member is %{user}."
-        detail: "More info at %{url}"
+        body_account: ""Um grupo novo chamado \"%{group_name}\" foi criado para a conta %{account}. O primeiro membro é %{user}."
+        body_course: "Um grupo novo chamado \"%{group_name}\" foi criado para o curso %{course}. O primeiro membro é %{user}."
+        detail: "Mais info em %{url}"
       summary: 
-        body_account: "A new student organized group named \"%{group_name}\" was created for the account %{account}. The first member is %{user}."
-        body_course: "A new student organized group named \"%{group_name}\" was created for the course %{course}. The first member is %{user}."
+        body_account: "Um grupo novo organizado por estudantes chamado \"%{group_name}\" foi criado para a conta %{account}. O primeiro membro é %{user}."
+        body_course: "Um grupo novo organizado por estudantes chamado \"%{group_name}\" foi criado para o curso %{course}. O primeiro membro é %{user}."
       twitter: 
-        body_account: "Canvas Alert - New Group: %{group_name} for the account %{account}"
-        body_course: "Canvas Alert - New Group: %{group_name} for the course %{course}"
+        body_account: "Alerts Campus - Novo Grupo: %{group_name} para a conta %{account}"
+        body_course: "Alerta Campus - New Group: %{group_name} para o curso %{course}"
     new_teacher_registration: 
       email: 
-        body: "%{user} just registered as a teacher at %{website}."
+        body: "%{user} acaba de registar-se como facilitador em %{website}."
         labels: 
           email: Email
-          phone: Phone
-          school_name: "School Name"
-          school_position: "School Position"
-        subject: "New Teacher Registration"
+          phone: Telefone
+          school_name: "Nome da escola"
+          school_position: "Posiçao na escola"
+        subject: "Novo registo de facilitador"
       facebook: 
-        body: "%{user} just registered as a teacher at %{website}."
-        subject: "New Teacher Registration"
+        body: "%{user} acaba de registar-se como facilitador em %{website}."
+        subject: "Novo registo de facilitador"
       sms: 
-        body: "%{user} just registered as a teacher at %{website}."
+        body: "%{user} acaba de registar-se como facilitador em %{website}."
       summary: 
-        body: "%{user} just registered as a teacher in Canvas."
+        body: "%{user} acaba de registar-se como facilitador no Campus."
         labels: 
           email: Email
-          phone: Phone
-          school_name: "School Name"
-          school_position: "School Position"
-        subject: "New Teacher Registration"
+          phone: Telefone
+          school_name: "Nome da escola"
+          school_position: "Posição na escola"
+        subject: "Novo registo de facilitador"
       twitter: 
-        body: "Canvas Alert - New Teacher: %{user}, %{account}"
+        body: "Alerta Campus - Novo facilitador: %{user}, %{account}"
     new_user: 
       email: 
-        body: "A new user, %{user}, has just registered for the account %{account}"
-        subject: "New User"
-        title: "New User for %{account}"
+        body: "Um novo utilizador, %{user}, registou-se para a conta %{account}"
+        subject: "Novo Utilizador"
+        title: "Novo Utilizador para %{account}"
       facebook: 
-        body: "A new user, **%{user}**, has just registered for the account **%{account}**."
-        title: "New User for %{account}"
+        body: "Um novo utilizador, **%{user}**, registou-se para a conta **%{account}**."
+        title: "Novo utilizador para %{account}"
       sms: 
-        body: "A new user, %{user}, has registered for the account %{account}"
-        details: "More info at %{url}"
+        body: "Um novo utilizador, %{user}, registou-se para a conta %{account}"
+        details: "Mais info em %{url}"
       summary: 
-        body: "A new user, %{user}, has just registered for the account %{account}"
-        subject: "New User"
+        body: "Um novo utilizador, %{user}, registou-se para a conta %{account}"
+        subject: "Novo utilizador"
       twitter: 
-        body: "Canvas Alert - New User: %{user}, %{account}"
-    page_locked: "This page is currently locked."
-    page_locked_at: "This page was locked %{at}."
-    page_locked_module: "This page is part of the module *%{module}* and hasn't been unlocked yet."
-    page_locked_until: "This page is locked until %{date}."
+        body: "Alerta Campus - Novo Utilizador: %{user}, %{account}"
+    page_locked: "Esta página está bloqueada."
+    page_locked_at: "Esta página foi bloqueada %{at}."
+    page_locked_module: "Esta página é parte da unidade *%{module}* e ainda não foi desbloqueada."
+    page_locked_until: "Esta página está bloqueada até %{date}."
     pseudonym_registration: 
       email: 
         body: "You have been registered for a Canvas account at %{account}!  Before you can log in and start using Canvas, you'll need to finish the configuration process."
