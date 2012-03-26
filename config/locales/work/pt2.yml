@@ -509,192 +509,192 @@
         unknown_user: "Utilizador desconhecido"
     enrollment_accepted: 
       email: 
-        body_designer: "%{user} justed accept their invitation to participate in the course, %{course}, as a designer."
-        body_observer: "%{user} just accepted their invitation to participate in the course, %{course}, as an observer."
-        body_student: "%{user} just accepted their invitation to participate in the course, %{course}, as a student."
-        body_ta: "%{user} just accepted their invitation to participate in the course, %{course}, as a TA."
-        body_teacher: "%{user} just accepted their invitation to participate in the course, %{course}, as a teacher."
-        details: "See the list of current enrollments here:"
-        subject: "%{user} accepted the Course Invitation"
+        body_designer: "%{user} aceitou o convite para participar no curso, %{course}, como designer."
+        body_observer: "%{user} aceitou o convite para participar no curso, %{course}, como observador."
+        body_student: "%{user} aceitou o convite para participar no curso, %{course}, como estudante."
+        body_ta: "%{user} aceitou o convite para participar no curso, %{course}, como TA."
+        body_teacher: "%{user} aceitou o convite para participar no curso, %{course}, como facilitador."
+        details: "Ver a lista de inscrições aqui:"
+        subject: "%{user} aceitou o convite de participação no curso"
       facebook: 
-        body_designer: "%{user} just accepted their invitation to participate in the course %{course} as a designer."
-        body_observer: "%{user} just accepted their invitation to participate in the course %{course} as an observer."
-        body_student: "%{user} just accepted their invitation to participate in the course %{course} as a student."
-        body_ta: "%{user} just accepted their invitation to participate in the course %{course} as a TA."
-        body_teacher: "%{user} just accepted their invitation to participate in the course %{course} as a teacher."
+        body_designer: "%{user} aceitou o convite para participar no curso %{course} como designer."
+        body_observer: "%{user} aceitou o convite para participar no curso %{course} como observador."
+        body_student: "%{user} aceitou o convite para participar no curso %{course} como estudante."
+        body_ta: "%{user} aceitou o convite para participar no curso %{course} como TA."
+        body_teacher: "%{user} aceitou o convite para participar no curso %{course} como facilitador."
       sms: 
-        body_designer: "%{user} accepted the designer invitation for the course, %{course}"
-        body_observer: "%{user} accepted the observer invitation for the course, %{course}"
-        body_student: "%{user} accepted the student invitation for the course, %{course}"
-        body_ta: "%{user} accepted the TA invitation for the course, %{course}"
-        body_teacher: "%{user} accepted the teacher invitation for the course, %{course}"
-        details: "More info at %{url}"
+        body_designer: "%{user} aceitou o convite de designer no curso, %{course}"
+        body_observer: "%{user} aceitou o convite de observador no curso, %{course}"
+        body_student: "%{user} aceitou o convite de estudante no curso, %{course}"
+        body_ta: "%{user} aceitou o convite de TA no curso, %{course}"
+        body_teacher: "%{user} aceitou o convite de facilitador no curso, %{course}"
+        details: "Mais info em %{url}"
       summary: 
-        body_designer: "%{user} justed accept their invitation to participate in the course, %{course}, as a designer."
-        body_observer: "%{user} just accepted their invitation to participate in the course, %{course}, as an observer."
-        body_student: "%{user} just accepted their invitation to participate in the course, %{course}, as a student."
-        body_ta: "%{user} just accepted their invitation to participate in the course, %{course}, as a TA."
-        body_teacher: "%{user} just accepted their invitation to participate in the course, %{course}, as a teacher."
-        subject: "%{user} accepted the Course Invitation"
+        body_designer: "%{user} aceitou o convite para participar no curso, %{course}, como designer."
+        body_observer: "%{user} aceitou o convite para participar no curso, %{course}, como observador."
+        body_student: "%{user} aceitou o convite para participar no curso, %{course}, como estudante."
+        body_ta: "%{user} aceitou o convite para participar no curso, %{course}, como TA."
+        body_teacher: "%{user} aceitou o convite para participar no curso, %{course}, como facilitador."
+        subject: "%{user} aceitou o convite de participação no curso"
       twitter: 
-        body: "Canvas Alert - Accepted: %{user}, %{enrollment_type}, course, %{course}"
+        body: "Altera Campus - Aceite: %{user}, %{enrollment_type}, curso, %{course}"
     enrollment_invitation: 
       email: 
-        body_designer: "You've been invited to participate in the course, %{course}, as a designer."
-        body_observer: "You've been invited to participate in the course, %{course}, as an observer."
-        body_student: "You've been invited to participate in the course, %{course}, as a student."
-        body_ta: "You've been invited to participate in the course, %{course}, as a TA."
-        body_teacher: "You've been invited to participate in the course, %{course}, as a teacher."
-        details: "Visit the course page here:"
+        body_designer: "Foste convidado a participar no curso, %{course}, como designer."
+        body_observer: "Foste convidado a participar no curso, %{course}, como observador."
+        body_student: "Foste convidado a participar no curso, %{course}, como estudante."
+        body_ta: "Foste convidado a participar no curso, %{course}, como TA."
+        body_teacher: "Foste convidado a participar no curso, %{course}, como facilitador."
+        details: "Visita a página do curso aqui:"
         labels: 
           email: Email
-          name: Name
-          username: Username
+          name: Nome
+          username: Nome de utilizador
         none: none
-        subject: "Course Invitation"
+        subject: "Convite para curso"
       facebook: 
-        body_designer: "You've been invited to participate in the course %{course} as a designer."
-        body_observer: "You've been invited to participate in the course %{course} as an observer."
-        body_student: "You've been invited to participate in the course %{course} as a student."
-        body_ta: "You've been invited to participate in the course %{course} as a TA."
-        body_teacher: "You've been invited to participate in the course %{course} as a teacher."
+        body_designer: "Foste convidado a participar no curso, %{course} como designer."
+        body_observer: "Foste convidado a participar no curso, %{course} como observador."
+        body_student: "Foste convidado a participar no curso, %{course} como estudante."
+        body_ta: "Foste convidado a participar no curso, %{course} como TA."
+        body_teacher: "Foste convidado a participar no curso, %{course} como facilitador."
         labels: 
           email: Email
-          name: Name
-          username: Username
-        none: none
+          name: Nome
+          username: Nome de utilizador
+        none: nenhum
       sms: 
-        body_designer: "You've been invited to the course as a designer."
-        body_observer: "You've been invited to the course as an observer."
-        body_student: "You've been invited to the course as a student."
-        body_ta: "You've been invited to the course as a TA."
-        body_teacher: "You've been invited to the course as a teacher."
-        details: "More info at %{url}"
+        body_designer: "Foste convidado a participar no curso como designer."
+        body_observer: "Foste convidado a participar no curso como observador"
+        body_student: "Foste convidado a participar no curso como estudante."
+        body_ta: "Foste convidado a participar no curso como TA."
+        body_teacher: "Foste convidado a participar no curso como facilitador."
+        details: "Mais info em %{url}"
         labels: 
           email: Email
-          name: Name
-          username: Username
-        none: none
+          name: Nome
+          username: Nome de utilizador
+        none: nenhum
       summary: 
-        body_designer: "You've been invited to participate in the course, %{course}, as a designer."
-        body_observer: "You've been invited to participate in the course, %{course}, as an observer."
-        body_student: "You've been invited to participate in the course, %{course}, as a student."
-        body_ta: "You've been invited to participate in the course, %{course}, as a TA."
-        body_teacher: "You've been invited to participate in the course, %{course}, as a teacher."
-        subject: "Course Invitation"
+        body_designer: "Foste convidado a participar no curso, %{course}, como designer."
+        body_observer: "Foste convidado a participar no curso, %{course}, como observador."
+        body_student: "Foste convidado a participar no curso, %{course}, como estudante."
+        body_ta: "Foste convidado a participar no curso, %{course}, como TA."
+        body_teacher: "Foste convidado a participar no curso, %{course}, como facilitador."
+        subject: "COnvite para curso"
       twitter: 
-        body: "Canvas Alert - Invited: course as %{enrollment_type}"
+        body: "Alerta Campus - Convite: %{enrollment_type} de cruso"
     enrollment_notification: 
       email: 
-        body_designer: "You've been enrolled in the course, %{course}, as a designer."
-        body_observer: "You've been enrolled in the course, %{course}, as an observer."
-        body_student: "You've been enrolled in the course, %{course}, as a student."
-        body_ta: "You've been enrolled in the course, %{course}, as a TA."
-        body_teacher: "You've been enrolled in the course, %{course}, as a teacher."
-        details: "Visit the course page here:"
+        body_designer: "Foste inscrito no curso, %{course}, como designer."
+        body_observer: "Foste inscrito no curso, %{course}, como observador."
+        body_student: "Foste inscrito no curso, %{course}, como estudante."
+        body_ta: "Foste inscrito no curso, %{course}, como TA."
+        body_teacher: "Foste inscrito no curso, %{course}, como facilitador."
+        details: "Visita a página do curso aqui:"
         labels: 
           email: Email
-          name: Name
-          username: Username
+          name: Nome
+          username: Nome de utilizador
         none: none
-        register: "Visit %{link} to complete registration"
-        subject: "Course Enrollment"
+        register: "Visita %{link} para concluir o registo"
+        subject: "Inscrição no curso"
       facebook: 
-        body_designer: "You've been enrolled in the course %{course} as a designer."
-        body_observer: "You've been enrolled in the course %{course} as an observer."
-        body_student: "You've been enrolled in the course %{course} as a student."
-        body_ta: "You've been enrolled in the course %{course} as a TA."
-        body_teacher: "You've been enrolled in the course %{course} as a teacher."
+        body_designer: "Foste inscrito no curso, %{course} como designer."
+        body_observer: "Foste inscrito no curso, %{course} como observador."
+        body_student: "Foste inscrito no curso, %{course} como estudante."
+        body_ta: "Foste inscrito no curso, %{course} como TA."
+        body_teacher: "Foste inscrito no curso, %{course} como facilitador."
         labels: 
           email: Email
-          name: Name
-          username: Username
-        none: none
+          name: Nome
+          username: Nome de utilizador
+        none: nenhum
       sms: 
-        body_designer: "You've been enrolled in the course as a designer."
-        body_observer: "You've been enrolled in the course as an observer."
-        body_student: "You've been enrolled in the course as a student."
-        body_ta: "You've been enrolled in the course as a TA."
-        body_teacher: "You've been enrolled in the course as a teacher."
-        details: "More info at %{url}"
+        body_designer: "Foste inscrito no curso como designer."
+        body_observer: "Foste inscrito no curso como observador."
+        body_student: "Foste inscrito no curso como estudante."
+        body_ta: "Foste inscrito no curso como TA."
+        body_teacher: "Foste inscrito no curso como facilitador"
+        details: "Mais info em %{url}"
         labels: 
           email: Email
-          name: Name
-          username: Username
-        none: none
+          name: Nome
+          username: Nome de utilizador
+        none: nenhum
       summary: 
-        body_designer: "You've been enrolled in the course, %{course}, as a designer."
-        body_observer: "You've been enrolled in the course, %{course}, as an observer."
-        body_student: "You've been enrolled in the course, %{course}, as a student."
-        body_ta: "You've been enrolled in the course, %{course}, as a TA."
-        body_teacher: "You've been enrollment in the course, %{course}, as a teacher."
-        subject: "Course Enrollment"
+        body_designer: "Foste inscrito no curso, %{course}, como designer."
+        body_observer: "Foste inscrito no curso, %{course}, como observador."
+        body_student: "Foste inscrito no curso, %{course}, como estudante."
+        body_ta: "Foste inscrito no curso, %{course}, como TA."
+        body_teacher: "Foste inscrito no curso, %{course}, como facilitador."
+        subject: "Inscrição no curso"
       twitter: 
-        body: "Canvas Alert - Enrolled: course as %{enrollment_type}"
+        body: "Alerta Campus - Inscrição: %{enrollment_type} do curso"
     enrollment_registration: 
       email: 
-        body_designer: "You've been invited to participate in a class at %{website}.  The class is called %{course}, and you've been invited to participate as a designer."
-        body_observer: "You've been invited to participate in a class at %{website}.  The class is called %{course}, and you've been invited to participate as a observer."
-        body_student: "You've been invited to participate in a class at %{website}.  The class is called %{course}, and you've been invited to participate as a student."
-        body_ta: "You've been invited to participate in a class at %{website}.  The class is called %{course}, and you've been invited to participate as a TA."
-        body_teacher: "You've been invited to participate in a class at %{website}.  The class is called %{course}, and you've been invited to participate as a teacher."
-        details: "You'll need to register with Canvas before you can participate in the class.  To get started, visit the course page here:"
+        body_designer: "Foste convidado para um curso em %{website}.  O curso é %{course} e foste convidado como designer."
+        body_observer: "Foste convidado para um curso em %{website}.  O curso é %{course}, e foste convidado como observador."
+        body_student: "Foste convidado para um curso em %{website}.  O curso é %{course}, e foste convidado como estudante."
+        body_ta: "Foste convidado para um curso em %{website}.  O curso é %{course}, e foste convidado como TA."
+        body_teacher: "Foste convidado para um curso em %{website}.  O curso é %{course}, e foste convidado como facilitador."
+        details: "Regista-te no Campus para participar no curso.  Para começar, visita a página do curso aqui:"
         labels: 
           email: Email
-          name: Name
-          username: Username
+          name: Nome
+          username: Nome de utilizador
         none: none
-        subject: "Course Invitation"
+        subject: "Convite para curso"
       sms: 
-        body_designer: "You've been invited to the course as a designer."
-        body_observer: "You've been invited to the course as an observer."
-        body_student: "You've been invited to the course as a student."
-        body_ta: "You've been invited to the course as a TA."
-        body_teacher: "You've been invited to the course as a teacher."
-        details: "More info at %{url}"
+        body_designer: "Foste convidado para o curso como designer."
+        body_observer: "Foste convidado para o curso como observador."
+        body_student: "Foste convidado para o curso como estudante."
+        body_ta: "Foste convidado para o curso como TA."
+        body_teacher: "Foste convidado para o curso como facilitador"
+        details: "Mais info em %{url}"
         labels: 
           email: Email
-          name: Name
-          username: Username
-        none: none
+          name: Nome
+          username: Nome de utilizdor
+        none: nenhum
       summary: 
-        body_designer: "You've been invited to participate in a class at %{website}.  The class is called %{course}, and you've been invited to participate as a designer."
-        body_observer: "You've been invited to participate in a class at %{website}.  The class is called %{course}, and you've been invited to participate as a observer."
-        body_student: "You've been invited to participate in a class at %{website}.  The class is called %{course}, and you've been invited to participate as a student."
-        body_ta: "You've been invited to participate in a class at %{website}.  The class is called %{course}, and you've been invited to participate as a TA."
-        body_teacher: "You've been invited to participate in a class at %{website}.  The class is called %{course}, and you've been invited to participate as a teacher."
-        subject: "Course Invitation"
+        body_designer: "Foste convidado para um curso em %{website}.  O curso é %{course}, e foste convidado como designer"
+        body_observer: "Foste convidado para um curso em %{website}.  O curso é %{course}, e foste convidado como observador."
+        body_student: "Foste convidado para um curso em %{website}.  O curso é %{course}, e foste convidado como estudante."
+        body_ta: "Foste convidado para um curso em %{website}.  O curso é %{course}, e foste convidado como TA."
+        body_teacher: "Foste convidado para um curso em %{website}.  O curso é %{course}, e foste convidado como facilitador."
+        subject: "Convite para curso"
       twitter: 
-        body: "Canvas Alert - Invited: course as %{enrollment_type}"
+        body: "Alerta Campus - Convite: %{enrollment_type} do curso"
     event_date_changed: 
       email: 
-        email_body: "The event, %{event_title}, for the course, %{course_name}, has changed times. It's now:"
-        from_to_time: "from %{start_date_time} to %{end_date_time}"
+        email_body: "O evento, %{event_title}, do curso, %{course_name}, mudou de datas. Novas datas:"
+        from_to_time: "desde %{start_date_time} até %{end_date_time}"
         labels: 
-          see_details: "You can see details here"
-        no_time_set: "No Time Set"
-        subject: "Event Date Changed: %{event_title}, %{course_name}"
+          see_details: "Podes ver os detalhes aqui"
+        no_time_set: "Sem datas estabelecidas"
+        subject: "Alteração de datas do evento: %{event_title}, %{course_name}"
       facebook: 
-        from_to_time: "from %{start_date_time} to %{end_date_time}"
-        no_time_set: "No Time Set"
-        subject: "The event [%{event_title}](%{link_to_event}) for %{course_name} has changed times. It's now:"
+        from_to_time: "desde %{start_date_time} até %{end_date_time}"
+        no_time_set: "Sem datas estabelecidas"
+        subject: "O evento [%{event_title}](%{link_to_event}) de curso %{course_name} mudou de datas. Novas datas:"
       sms: 
-        from_to_time: "from %{start_date_time} to %{end_date_time}"
-        more_info: "More info at %{web_link}"
-        no_time_set: "No Time Set"
-        subject: "%{event_title}, %{course_name} changed to:"
+        from_to_time: "desde %{start_date_time} até %{end_date_time}"
+        more_info: "Mais info em %{web_link}"
+        no_time_set: "Sem datas estabelecidas"
+        subject: "%{event_title}, %{course_name} mudou para:"
       summary: 
-        from_to_time: "from %{start_date_time} to %{end_date_time}"
-        no_time_set: "No Time Set"
-        subject: "Event Date Changed: %{event_title}, %{course_name}"
+        from_to_time: "desde %{start_date_time} até %{end_date_time}"
+        no_time_set: "Sem datas estabelecidas"
+        subject: "Alteração de datas de evento: %{event_title}, %{course_name}"
       twitter: 
-        from_to_time: "from %{start_date_time} to %{end_date_time}"
-        no_time_set: "No Time Set"
-        subject: "Canvas Alert - Changed: %{event_title}, %{course_name}"
-    file_locked: "This file is currently locked."
-    file_locked_at: "This file was locked %{at}."
-    file_locked_module: "This file is part of the module *%{module}* and hasn't been unlocked yet."
-    file_locked_until: "This file is locked until %{date}."
+        from_to_time: "desde %{start_date_time} até %{end_date_time}"
+        no_time_set: "Sem datas estabelecidas"
+        subject: "Alerta Campus - Alteração: %{event_title}, %{course_name}"
+    file_locked: "Este ficheiro está bloqueado."
+    file_locked_at: "Este ficheiro foi bloqueado %{at}."
+    file_locked_module: "Este ficheiro é parte da unidade *%{module}* e ainda não foi desbloqueado."
+    file_locked_until: "Este ficheiro está bloqueado até %{date}."
     forgot_password: 
       email: 
         associated_login: "This address is associated with the login, \"%{login_identifier}\"."
