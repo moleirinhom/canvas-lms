@@ -455,12 +455,12 @@
     confirm_email_communication_channel: 
       email: 
         body: "O endereço de email, %{email} foi registado em %{website} pelo utilizador, %{user}."
-        details: "Para confirmar este registo, segue o seguinte url:"
+        details: "Para confirmar este registo, segue o atalho:"
         subject: "Confirmação de endereço de Email: Campus"
     confirm_registration: 
       email: 
         body: "Agradeçemos o teu registo no Campus! Este email confirma que o utilizador %{user} está registado em %{website}."
-        details: "Para concluir o processo de registo, segue o seguinte url:"
+        details: "Para concluir o processo de registo, segue o atalho:"
         subject: "Confirmaçãp de registo: Campus"
     confirm_sms_communication_channel: 
       sms: 
@@ -489,7 +489,7 @@
         attached_files: "Ficheiro anexados:"
         audio_comment: "Esta mensagem contém comentários mídia. Para ouvir ou responder, clica no link seguinte:"
         body: "%{user_name} enviou-te uma mensagem no Campus:"
-        reply_message: "Para responder à mensagem, clica no link seguinte:"
+        reply_message: "Para responder à mensagem, clica no atalho:"
         subject: "%{user_name} enviou-te uma mensagem no Campus."
         unknown_user: "Utilizador desconhecido"
       facebook: 
@@ -697,101 +697,101 @@
     file_locked_until: "Este ficheiro está bloqueado até %{date}."
     forgot_password: 
       email: 
-        associated_login: "This address is associated with the login, \"%{login_identifier}\"."
+        associated_login: "Este endereço está associado com o início de sessão, \"%{login_identifier}\"."
         labels: 
-          associated_with_accounts: "This address is associated with the following accounts"
-          change_password_at: "change this login's password at"
-          click_to_reset: "To set a new password, please click the following link"
-        login_at_account: "%{login_email} at %{account_name}"
-        login_managed_by_account: "this login's credentials are managed by %{account_name}"
-        password_from_account: "The password for this login should have been given to you by the system administrators at %{account_name}, and Instructure doesn't have access to your password.  If your password is not working, please contact the system administrators about changing or verifying your password."
-        requested_password_reset: "You requested a confirmation of your password for logging into Canvas."
-        subject: "Forgot Password: Canvas"
+          associated_with_accounts: "Este endereço está associado com as seguintes contas"
+          change_password_at: "mudar a palavra-passe do início de sessão em"
+          click_to_reset: "Para configurar uma nova palavra-passe, clica no atalho"
+        login_at_account: "%{login_email} em %{account_name}"
+        login_managed_by_account: "as credenciais deste início de sessão são administrados por %{account_name}"
+        password_from_account: "A palavra-passe foi facultada pelo administrador do sistema em %{account_name}, e Instructure não tem acesso à tua palavra-passe.  Se a tua palavra-passe não está a funcionar, comtacta o administrador do sistema. "
+        requested_password_reset: "Pediu a confirmação da palavra-passe para o início de sessão no Campus."
+        subject: "Esqueci-me da palavra-passe: Campus"
     grade_weight_changed: 
       email: 
-        grade_changed: "The grading policy for the course, %{course_name} has changed."
-        grading_based_on_points: "Grading is based on total points for all assignments."
+        grade_changed: "Os critérios de avaliação do curso, %{course_name} foram alterados."
+        grading_based_on_points: "A avaliação é baseada no total de pontos de todas as tarefas."
         labels: 
-          grades_based_on_percent: "Grading is based on the weighted total for each assignment group"
-          now_see_here: "You can see details here"
-          subject: "Grade Weight Changed"
+          grades_based_on_percent: "A avaliação é baseada no peso total para cada tarefa de grupo"
+          now_see_here: "Podes ver os detalhes aqui"
+          subject: "O peso da avaliação foi alterado"
       facebook: 
-        grading_based_on_points: "Grading is based on total points for all assignments."
-        grading_policy_changed: "The grading policy for **[%{course_name}](%{course_url})** has changed."
+        grading_based_on_points: "A avaliação é baseada no total de pontos de todas as tarefas."
+        grading_policy_changed: "A política de avaliação do curso **[%{course_name}](%{course_url})** foi alterada."
         labels: 
-          grades_based_on_percent: "Grading is based on the weighted total for each assignment group"
+          grades_based_on_percent: "A avaliação é baseada no peso total para cada tarefa de grupo"
       sms: 
-        grade_changed: "The grading policy for the course, %{course_name} has changed."
-        more_info_at: "More info at %{course_url}"
+        grade_changed: "A política de avaliação do curso, %{course_name} foi alterada."
+        more_info_at: "Mais info em %{course_url}"
       summary: 
-        grade_changed: "The grading policy for the course, %{course_name} has changed."
-        grading_based_on_points: "Grading is based on total points for all assignments."
+        grade_changed: "A política de avaliação do curso, %{course_name} foi alterada."
+        grading_based_on_points: "A avaliação é baseada no total de pontos de todas as tarefas."
         labels: 
-          grades_based_on_percent: "Grading is based on the weighted total for each assignment group"
-          subject: "Grade Weight Changed"
+          grades_based_on_percent: "A avaliação é baseada no peso total para cada tarefa de grupo"
+          subject: ""O peso da avaliação foi alterado"
       twitter: 
-        grade_changed: "Canvas Alert - Grading Policy Changed: %{course_name}"
+        grade_changed: "Alerta Campus - ALteração na politíca de avaliação do curso: %{course_name}"
     group_assignment_submitted_late: 
       email: 
-        body: "The group %{group_name} has just turned in a late submission for %{assignment_name} in the course %{course_name}."
+        body: "O grupo %{group_name} enviou, com atraso, a tarefa %{assignment_name} do curso %{course_name}."
         labels: 
-          view_submission_here: "You can view the submission here"
-        subject: "Late Assignment: %{group_name}, %{assignment_name}"
+          view_submission_here: "Podes ver o envio aqui"
+        subject: "Tarefa atrasada: %{group_name}, %{assignment_name}"
       facebook: 
-        body: "The group %{group_name} has just turned in a late submission for **[%{assignment_name}](%{assignment_url})** in the course %{course_name}."
+        body: "O grupo %{group_name} enviou, com atraso, a tarefa **[%{assignment_name}](%{assignment_url})** do curso %{course_name}."
       sms: 
-        more_info: "More info at %{web_address}"
-        subject: "%{group_name} just turned in their assignment (late), %{assignment_name}"
+        more_info: "Mais info em %{web_address}"
+        subject: "%{group_name} entregou, com atraso, a tarefa, %{assignment_name}"
       summary: 
-        body: "The group %{group_name} turned in a late submission for %{assignment_name} in the course %{course_name}."
-        subject: "Late Assignment: %{group_name}, %{assignment_name}"
+        body: "O grupo %{group_name} entregou, com atraso, a tarefa %{assignment_name} do curso %{course_name}."
+        subject: "Entrega tardia: %{group_name}, %{assignment_name}"
       twitter: 
-        subject: "Canvas Alert - Late Group Submission: %{group_name}, %{assignment_name}"
+        subject: "Alerta Campus - Entrega tardia: %{group_name}, %{assignment_name}"
     group_membership_accepted: 
       email: 
-        account_group: "Your request to join the group %{group_name} for the account %{account_name} has been accepted."
-        course_group: "Your request to join the group %{group_name} for the course %{course_name} has been accepted."
-        group_request_accepted: "Group Request Accepted: %{group_name}"
+        account_group: "O teu pedido para unir-se ao grupo %{group_name} para a conta %{account_name} foi aceite."
+        course_group: "O teu pedido para unir-se ao grupo %{group_name} do curso %{course_name} foi aceite."
+        group_request_accepted: "Pedido ao grupo aceite: %{group_name}"
         labels: 
-          click_below: "You can check out the group by clicking the link below"
-        subject: "Group Membership Accepted: %{group_name}"
+          click_below: "Para  ver o grupo, clica no atalho"
+        subject: "Subscrição ao grupo aceite: %{group_name}"
       facebook: 
-        account_group: "Your request to join the group **[%{group_name}](%{group_url})** for the account %{account_name} has been accepted."
-        course_group: "Your request to join the group **[%{group_name}](%{group_url})** for the course %{course_name} has been accepted."
-        group_request_accepted: "Group Request Accepted: %{group_name}"
+        account_group: "O teu pedido para unir-se ao grupo **[%{group_name}](%{group_url})** para a conta %{account_name} foi aceite."
+        course_group: "O teu pedido para unir-se ao grupo **[%{group_name}](%{group_url})** para o curso %{course_name} foi aceite."
+        group_request_accepted: "Subscrição ao grupo aceite: %{group_name}"
       sms: 
-        account_group: "Your request to join the group %{group_name} for the account %{account_name} has been accepted."
-        course_group: "Your request to join the group %{group_name} for the course %{course_name} has been accepted."
-        more_info: "More info at %{web_address}"
+        account_group: "O teu pedido para unir-se ao grupo %{group_name} para a conta %{account_name} foi aceite."
+        course_group: "O teu pedido para unir-se ao grupo %{group_name} para o curso %{course_name} foi aceite."
+        more_info: "Mais info em %{web_address}"
       summary: 
-        account_group: "Your request to join the group %{group_name} for the account %{account_name} has been accepted."
-        course_group: "Your request to join the group %{group_name} for the course %{course_name} has been accepted."
-        subject: "Group Membership Accepted: %{group_name}"
+        account_group: "O teu pedido para unir-se ao grupo %{group_name} para a conta %{account_name} foi aceite."
+        course_group: "O teu pedido para unir-se ao grupo %{group_name} para o curso %{course_name} foi aceite."
+        subject: "Subscrição ao grupo aceite: %{group_name}"
       twitter: 
-        account_group: "Canvas Alert - Group Membership Accepted: %{group_name} for the account %{account_name}."
-        course_group: "Canvas Alert - Group Membership Accepted: %{group_name} for the course %{course_name}."
+        account_group: "Alerta Campus - Subscrição ao grupo aceite: %{group_name} para a conta %{account_name}."
+        course_group: "Alerta Campus - Subscrição ao grupo aceite: %{group_name} para o curso %{course_name}."
     group_membership_rejected: 
       email: 
-        account_group: "Your request to join the group %{group_name} for the account %{account_name} has been rejected."
-        course_group: "Your request to join the group %{group_name} for the course %{course_name} has been rejected."
-        group_request_rejected: "Group Request Rejected: %{group_name}"
+        account_group: "O teu pedido para unir-se ao grupo %{group_name} para a conta %{account_name} não foi aceite."
+        course_group: "O teu pedido para unir-se ao grupo %{group_name} para o curso %{course_name} não foi aceite."
+        group_request_rejected: "Subscrição ao grupo não aceite: %{group_name}"
         labels: 
-          click_below: "You can check out other groups by clicking the link below"
-        subject: "Group Membership Rejected: %{group_name}"
+          click_below: "Podes ver outros grupos aqui"
+        subject: "Subscrição ao grupo não aceite: %{group_name}"
       facebook: 
-        account_group: "Your request to join the group **[%{group_name}](%{group_url})** for the account %{account_name} has been rejected."
-        course_group: "Your request to join the group **[%{group_name}](%{group_url})** for the course %{course_name} has been rejected."
+        account_group: "O teu pedido para unir-se ao grupo **[%{group_name}](%{group_url})** fpara a conta %{account_name} não foi aceite."
+        course_group: "O teu pedido para unir-se ao grupo **[%{group_name}](%{group_url})** for the course %{course_name} não foi aceite."
       sms: 
-        account_group: "Your request to join the group %{group_name} for the account %{account_name} has been rejected."
-        course_group: "Your request to join the group %{group_name} for the course %{course_name} has been rejected."
-        more_info: "More info at %{web_address}"
+        account_group: "O teu pedido para unir-se ao grupo %{group_name} para a conta %{account_name} não foi aceite."
+        course_group: "O teu pedido para unir-se ao grupo %{group_name} para o curso %{course_name} não foi aceite."
+        more_info: "Mais info em %{web_address}"
       summary: 
-        account_group: "Your request to join the group %{group_name} for the account %{account_name} has been rejected."
-        course_group: "Your request to join the group %{group_name} for the course %{course_name} has been rejected."
-        subject: "Group Membership Rejected for %{group_name}"
+        account_group: "O teu pedido para unir-se ao grupo %{group_name} para a conta %{account_name} não foi aceite."
+        course_group: "O teu pedido para unir-se ao grupo %{group_name} para o cruso %{course_name} não foi aceite."
+        subject: "Subscrição ao grupo não aceite %{group_name}"
       twitter: 
-        account_group: "Canvas Alert - Group Membership Rejected: %{group_name} for the account %{account_name}."
-        course_group: "Canvas Alert - Group Membership Rejected: %{group_name} for the course %{course_name}."
+        account_group: "Alerta Campus - Subscrição ao grupo não aceite: %{group_name} para a conta %{account_name}."
+        course_group: "Alerta Campus - Subscrição ao grupo não aceite: %{group_name} para o curso %{course_name}."
     merge_email_communication_channel: 
       email: 
         body: "An account has been created for you at %{url}, but you already have a Canvas account.  If you would like to merge them together, please visit the following url:"
