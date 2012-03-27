@@ -1905,108 +1905,107 @@
           resources on your behalf. These tokens are normally created automatically for
           applications as needed, but if [you're developing a new or limited
           project](%{documentation_url}) you can just generate the token from here.
-      google_docs_description: "Once you authorize us to see your Google Docs you'll be able to submit your assignments directly from Google Docs, and create and share documents with members of your classes."
+      google_docs_description: "Uma vez que autorizas o acceso à tua conta de Google Docs, poderás enviar as tuas tarefas diretamente a partir do Google Docs, e poderás criar e partilhar documentos com os membros do curso."
       headers: 
-        application_abbrev: App
+        application_abbrev: Aplicação
         dates: Dates
-        delicious_login: "Delicious Login"
-        diigo_login: "Diigo Login"
-        facebook_access: "Facebook Access"
-        generate_access_token: "Generate an Access Token"
-        google_docs_access: "Google Docs Access"
-        linkedin_access: "LinkedIn Access"
-        loading_images: "Loading Images..."
+        delicious_login: "Início de sessão Delicious"
+        diigo_login: "Início de sessão Diigo"
+        facebook_access: "Acesso ao Facebook"
+        generate_access_token: "Generar acesso a componente de léxico"
+        google_docs_access: "Acesso ao Google Docs"
+        linkedin_access: "Acesso ao LinkedIn"
+        loading_images: "A carregar imagens"
         login: Login
-        organization: Organization
-        other_services: "Other Services"
+        organization: Organização
+        other_services: "Outros serviços"
         purpose: Purpose
-        registered_services: "Registered Services"
-        share_skype_id: "Share your Skype ID"
-        twitter_access: "Twitter Access"
-        users_profile: "%{user}'s Profile"
-        ways_to_log_in: "Ways to Log In"
-        web_services: "Web Services"
+        registered_services: "Serviços registados"
+        share_skype_id: "Partilhar o teu Skype ID"
+        twitter_access: "Acesso ao Twitter"
+        users_profile: "Perfil de %{user}"
+        ways_to_log_in: "Formas de iniciar sessão"
+        web_services: "Serviços Web"
       hints: 
-        expires_at: "leave blank for no expiration"
-        language: "This will override any browser or account settings."
-        name: "This name will be used by teachers for grading."
-        short_name: "People will see this name in discussions, messages and comments."
-        sortable_name: "This name appears in sorted lists."
+        expires_at: "deixar em branco para que não expire"
+        language: "Isto anulará as configurações de qualquer browser ou conta."
+        name: "Este nome será usado pelos facilitadores para avaliação."
+        short_name: "As pessoas vão ver este nome nas discussões, mensagens e comentários."
+        sortable_name: "Este nome aparece em listas ordenadas."
       labels: 
-        change_password: "Change Password"
-        confirm_password: "Confirm Password"
-        default_email: "Default Email"
-        expires_at: Expires
+        change_password: "Alterar palavra-passe"
+        confirm_password: "Confirmar palavra-passe"
+        default_email: "Endereço eletrónico predefinido."
+        expires_at: Expira a
         headers: 
-          approved_integrations: "Approved Integrations"
-        locale: Language
-        name: "Full Name"
-        new_password: "New Password"
-        old_password: "Old Password"
-        other_services: "Click any service below to register"
-        password: Password
-        password_for: "Password For"
-        purpose: Purpose
-        short_name: "Display Name"
-        show_user_services: "Let fellow course/group members see which services I've linked to my profile"
-        skype_name: "Skype Name"
+          approved_integrations: "Integrações aprovadas"
+        locale: Idioma
+        name: "Nome completo"
+        new_password: "Nova palvra-passe"
+        old_password: "Antiga palavra-passe"
+        other_services: "Clica em qualquer serviço para o registar"
+        password: Palavra-passe
+        password_for: "Palavra-passe para"
+        purpose: Propósito
+        short_name: "Mostrar nome"
+        show_user_services: "Permitir às pessoas com quem partilhas cursos ou grupos que vejam os serviços que ligaste ao teu perfil."
+        skype_name: "Nome Skype"
         sortable_name: "Sortable Name"
-        subscribe_to_emails: "I want to receive information, news and tips from Instructure"
+        subscribe_to_emails: "Quero receber informações, noticias e ajuda a partir de Instructure"
         time_zone: "Time Zone"
-        token: Token
-        token_application: App
-        token_created: Created
-        token_expires: Expires
-        token_last_used: "Last Used"
-        token_purpose: Purpose
-        user_name: "User Name"
-      linkedin_description: "LinkedIn is a great resources for business networking, and can be helpful long after you've finished your education. If you have a LinkedIn account, you can register it here. Then if you allow fellow course/group members to see your registered services, they can easily invite you to link with them without having to search LinkedIn for your profile."
+        token: Componente léxico
+        token_application: Aplicação
+        token_created: Criado
+        token_expires: Expira
+        token_last_used: "Usado pela última vez"
+        token_purpose: Porpósito
+        user_name: "Nome de utilizador"
+      linkedin_description: "LinkedIn é um bom recurso para redes de negócio. Se tiveres uma conta no LinkedIn, podes a registar aqui e permitir que os membros com quem partilhas cursos/grupos vejam os serviços registados."
       links: 
-        add_account: "Add Account"
-        delete_profile: "Delete My Profile"
+        add_account: "Adicionar conta"
+        delete_profile: "Eliminar o meu perfil"
         delicious: Delicious
         diigo: Diigo
-        edit_profile: "Edit Profile"
+        edit_profile: "Editar Perfil"
         facebook: Facebook
         google_docs: "Google Docs"
         linkedin: LinkedIn
-        more_options: "more options"
+        more_options: "mais opções"
         skype: Skype
         twitter: Twitter
-        upload_new_image: "Upload a new Image"
-        view_facebook_app: "view the Facebook app"
-        view_your_profile: "view your profile"
-      loading_token_details: "Loading Token Details..."
+        upload_new_image: "Carregar uma nova imagem"
+        view_facebook_app: "ver a aplicação Facebook"
+        view_your_profile: "ver o teu perfil"
+      loading_token_details: "A carregar detalhes de componente léxico"
       no_approved_integrations: "Third-party applications can request permission to access the Canvas site on your behalf. As you begin authorizing applications you will see them listed here."
-      no_language_preference: "System Default (%{language})"
-      no_registered_services: "No Registered Services"
-      none: None
-      page_title: Profile
-      profile_pictures: "Select the image you'd like to use as your profile pic, or upload a new image:"
-      skype_description: "Skype offers free online voice and video calls. Lots of students use Skype as a free, easy way to communicate. If you register your Skype Name and enable visibility, then other students can easily find your contact and call or add you using Skype."
+      no_language_preference: "Predeterminado do sistema (%{language})"
+      no_registered_services: "Sem serviços registados"
+      none: Nenhum
+      page_title: Perfil
+      profile_pictures: "Seleciona a imagem que gostarias de usar como foto de perfil ou carrega uma nova imagem."
+      skype_description: "O Skype oferece chamadas grátis de vídeo e voz. Se registares o teu Skype e permitir visibilidade, os outros estudantes poderão encontrar o teu contacto e contactar-te pelo Skype."
       titles: 
-        access_token_details: "Access Token Details"
-        authorize_facebook: "Authorize Facebook"
-        authorize_google_docs: "Authorize Google Docs"
-        authorize_linkedin: "Authorize LinkedIn"
-        authorize_twitter: "Authorize Twitter"
-        click_to_change_profile_pic: "Click to change profile pic"
-        delicious_login: "Delicious Login"
-        diigo_login: "Diigo Login"
-        new_access_token: "New Access Token"
-        register_skype: "Register Skype"
-        remove_account_from_profile: "Remove account from this profile"
-        unregister_service: "Unregister Service"
+        access_token_details: "Acesso ao detalhes do componente léxico"
+        authorize_facebook: "Autorizar Facebook"
+        authorize_google_docs: "Autorizar Google Docs"
+        authorize_linkedin: "Autorizar LinkedIn"
+        authorize_twitter: "Autorizar Twitter"
+        click_to_change_profile_pic: "Clica para alterar a foto de perfil"
+        delicious_login: "Início de sessão Delicious"
+        diigo_login: "Início de sessão Diigo"
+        new_access_token: "Novo componente léxico de acesso "
+        register_skype: "Registar Skype"
+        remove_account_from_profile: "Remover conta deste perfil"
+        unregister_service: "Cancelar serviço"
       twitter_description: |-
-          Twitter is a service for posting and subscribing to short messages.
-          If you have a Twitter account, you can register it here.  Then if you allow
-          fellow course/group members to see your registered services, they can 
-          easily connect with your Twitter account.
+          Twitter é uma serviço para publicar e subscrever mensagens curtas.
+          Se tiveres uma conta no Twitter, podes a registar aqui e permitir
+          que os membros com quem partilhas cursos/grupos vejam o teu contacto.
           
-          You can also sign up to have notifications sent to your Twitter account.
-          These notifications will be sent as direct messages to yourself from
-          yourself, and won't appear in your public stream.
-      unknown_service: Unknown
+          Podes também receber notificações na tua conta de Twitter. Estas 
+          notificações são enviadas como mensagens e não ficam vísiveis para 
+          o publico. 
+      unknown_service: Desconhecido
       web_services: "Canvas can make your life a lot easier by tying itself in with the web tools you already use. Click any of the services in \"Other Services\" to see what we mean."
     secondary_nav: 
       links: 
