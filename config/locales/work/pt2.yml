@@ -1432,46 +1432,46 @@
       remove_this_outcome: "Remover este resultado"
       show_details: "ver detalhes"
     outcome_alignment: 
-      delete_title: "Can't delete alignments based on rubric associations. To remove these associations you need to remove the row from the asset's rubric"
+      delete_title: "Não é possível excluir atribuições baseadas em associações de rubricas. Para remover estas associações deves remover a fila da tarefa da rubrica."
     outcome_form: 
-      add_rating: "Add rating"
-      criterion_definition: "Define a criterion for use in rubrics"
-      criterion_dialog: "Learning outcomes can be included in assignment rubrics as an easy way to assess mastery of outcomes aligned to specific assignments. When you define a learning outcome, you should also define a criterion that can be used when building assignment rubrics. Define as many rubric columns as you need, and specify a point threshold that will be used to define mastery of this outcome."
+      add_rating: "Adicionar classificação"
+      criterion_definition: "Define um critério para usar nas rubricas"
+      criterion_dialog: "Os resultados de aprendizagem podem ser incluidos nas rubricas das tarefas como uma forma fácil de avaliar o domínio de resultados de tarefas específicas. Quando se define um resultado de aprendizagem, deve-se definir o critério que pode ser usado ma construção das rubriicas. Define quantas colunas de rubricas são necessárias e especifica um ponto limite que será usado para definir o dominio de este resultado."
       labels: 
-        criterion_ratings: "Criterion ratings"
-        grouping_description: "Grouping Description"
-        grouping_name: "Grouping Name"
-        longer_description: "Longer description"
-        short_description: "Short description"
-        threshold: Threshold
+        criterion_ratings: "Classificação do critério"
+        grouping_description: "Descrição de agrupamento"
+        grouping_name: "Nome do agrupamento"
+        longer_description: "Descrição detalhada"
+        short_description: "Descrição breve"
+        threshold: Limite
       links: 
-        switch_views: "Switch views"
+        switch_views: "Mudar visualização"
       outcome_rating_points: "%{input_box} pts"
-      remove_criterion_rating: "Remove criterion rating"
-      whats_this: "What's this?"
+      remove_criterion_rating: "Remover a classificação do critério"
+      whats_this: "O que é isto?"
     outcome_result: 
-      all_outcomes: "all outcome results for this student"
-      attempt_info: "attempt #%{attempt_number}, %{attempt_date}"
-      outcome_mastered: mastered
-      scoring: "%{points} out of %{possible_points}"
+      all_outcomes: "todos os resultados deste estudante"
+      attempt_info: "tentativa #%{attempt_number}, %{attempt_date}"
+      outcome_mastered: dominado
+      scoring: "%{points} de %{possible_points}"
     show: 
-      no_aligned_items: "No aligned items"
-      no_artifacts: "No artifacts"
-    successful_outcome_creation: "Outcome successfully created!"
-    successful_outcome_delete: "Outcome successfully deleted"
-    successful_outcome_removal: "Outcome successfully removed"
-    successful_outcome_update: "Outcome successfully updated!"
+      no_aligned_items: "Sem elementos atribuidos"
+      no_artifacts: "Sem artifactos"
+    successful_outcome_creation: "Resultado criado"
+    successful_outcome_delete: "Resultado eliminado"
+    successful_outcome_removal: "Resultado removido"
+    successful_outcome_update: "Resultado atualizado"
     user_outcome_results: 
       artifacts: 
-        one: "1 artifact"
-        other: "%{count} artifacts"
+        one: "1 artifacto"
+        other: "%{count} artifactos"
       attempts: 
-        one: "1 attempt"
-        other: "%{count} attempts"
-      attempts_from_artifacts: "%{attempts} *from %{artifacts}*"
+        one: "1 tentativa"
+        other: "%{count} tentativas"
+      attempts_from_artifacts: "%{attempts} * de %{artifacts}*"
       labels: 
-        see_results: "See %{user_name}'s results for"
-      mastery: "Mastery on latest attempt"
+        see_results: "Ver resultados de %{user_name}"
+      mastery: "Domínio na última tentativa"
       no_mastery: "No Mastery on latest attempt"
       outcomes_for: "Outcomes for %{user_name}"
       score_out_of_possible: "%{score}* out of %{possible}*"
