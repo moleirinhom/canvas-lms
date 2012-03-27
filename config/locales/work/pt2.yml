@@ -1644,7 +1644,7 @@
           
           Then check the boxes for "Add Entry" and "Delete Entry" in the "Sent by Server" column.
       headers: 
-        account_settings: "Account Settings"
+        account_settings: "Configurações da conta"
         domain_settings: "Domain Settings"
         ui_conf_ids: "UI Conf IDs"
       hints: 
@@ -1690,7 +1690,7 @@
         enabled: Enabled
     registration_form_recaptcha: 
       description: "CAPTCHA plugin for the registration form"
-      name: "Registration form ReCAPTCHA"
+      name: "Formulário de registo ReCAPTCHA"
     respondus_soap_endpoint: 
       description: "SOAP Endpoint for Respondus QTI uploads"
       name: "Respondus SOAP Endpoint"
@@ -1709,9 +1709,9 @@
         api_key: "API key"
         secret_key: "API secret"
     show: 
-      back_to_list: "Return to plugins list"
+      back_to_list: "Voltar à lista de plugins"
       labels: 
-        disabled: "Disable this Plugin"
+        disabled: "Desativar este Plugin"
       page_title: "Plugin Settings"
     sis_import: 
       description: "Import SIS Data"
@@ -1722,7 +1722,7 @@
         parallelism: "Number of job processors to use to process SIS imports in parallel"
         queue_for_parallel_jobs: "Job queue to use for parallel jobs (blank for default)"
     tinychat: 
-      description: "Tinychat chat room"
+      description: "Sala de chat"
       name: Tinychat
     tinychat_settings: 
       description: |-
@@ -1732,7 +1732,7 @@
         api_key: "Public Key"
         secret_key: "Secret Key"
     twitter: 
-      description: "Twitter notifications"
+      description: "Notificações do Twitter"
       name: Twitter
     twitter_settings: 
       description: |-
@@ -1765,45 +1765,45 @@
       requirements_must_be_completed: "The following requirements need to be completed before this page will be unlocked"
   profile: 
     _ways_to_contact: 
-      confirming_contact: Confirming...
+      confirming_contact: A confirmar...
       errors: 
-        confirmation_failed: "Confirmation failed.  Please try again."
+        confirmation_failed: "A confirmação falhou. Tenta de novo."
       links: 
-        resend_confirmation: "Re-Send Confirmation"
-        resend_confirmation_failed: "Request failed. Try again."
-        resending_confirmation: Re-Sending...
-        resent_confirmation: "Done! Message may take a few minutes."
+        resend_confirmation: "Reenviar confirmação"
+        resend_confirmation_failed: "Pedido falhou. Tenta de novo."
+        resending_confirmation: A reenviar...
+        resent_confirmation: "Ooncluido. A mensagem pode demorar alguns minutos."
       notices: 
-        contact_confirmed: "Contact successfully confirmed!"
+        contact_confirmed: "Contacto confirmado"
       titles: 
-        confirm_email_address: "Confirm Email Address"
-        confirm_sms_number: "Confirm SMS Number"
-        contact_not_confirmed: "This contact has not been confirmed.  Click the address for more details"
-        email_not_confirmed: "This email has not been confirmed.  Click the address for more details"
-        register_communication: "Register Communication"
-        unconfirmed_click_to_confirm: "Unconfirmed.  Click to confirm"
+        confirm_email_address: "Confirmar endereço eletrónico"
+        confirm_sms_number: "Confirmar número SMS"
+        contact_not_confirmed: "Este contacto não foi confirmado.  Clica no endereço para mais detalhes"
+        email_not_confirmed: "Este email não foi confirmado. Clica no endereço para mais detalhes"
+        register_communication: "Registar a comunicação"
+        unconfirmed_click_to_confirm: "Não confirmado. Clica para confirmar"
     access_token: 
-      default_app_name: "No App"
+      default_app_name: "Sem Aplicação"
       labels: 
-        token_expires: Expires
-        token_last_used: "Last Used"
+        token_expires: Expira
+        token_last_used: "Último utilizador"
       links: 
-        token_details: details
+        token_details: detalhes
       profile: 
-        token_never_expires: never
+        token_never_expires: nunca
       titles: 
-        delete_this_token: "Delete this Token"
+        delete_this_token: "Eliminar este componente léxico"
     alerts: 
-      profile_picture_locked: "Your profile picture has been locked by an administrator, and cannot be changed."
+      profile_picture_locked: "A tua foto de perfil foi bloqueada pelo administrador, não pode ser mudada."
     buttons: 
-      add_file: "Add File"
-      adding_file: "Adding File..."
-      generate_token: "Generate Token"
-      generating_token: "Generating Token..."
-      regenerate_token: "Regenerate Token"
-      regenerating_token: "Regenerating token..."
-      select_image: "Select Image"
-      selecting_image: "Selecting Image..."
+      add_file: "Adicionar Ficheiro"
+      adding_file: "A adicionar Ficheiro"
+      generate_token: "Generar um componente léxico"
+      generating_token: "A generar um componente léxico"
+      regenerate_token: "Regenerar um componente léxico"
+      regenerating_token: "A regenerar um componente léxico"
+      select_image: "Selecionar imagem"
+      selecting_image: "A selecionar imagem"
     communication: 
       buttons: 
         problem_saving_preferences: "Problem Saving Preferences"
