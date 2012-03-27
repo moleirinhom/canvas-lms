@@ -2006,25 +2006,25 @@
           notificações são enviadas como mensagens e não ficam vísiveis para 
           o publico. 
       unknown_service: Desconhecido
-      web_services: "Canvas can make your life a lot easier by tying itself in with the web tools you already use. Click any of the services in \"Other Services\" to see what we mean."
+      web_services: "O Campus facilita a tua vida ao unir-se com as ferramentas que já usas. Clica em qualquer um dos serviços em \"Outros Serviços\" para ver o que queremos dizer."
     secondary_nav: 
       links: 
-        communication_preferences: "Communicaton Preferences"
-        user_settings: "User Settings"
+        communication_preferences: "Preferências de comunicação"
+        user_settings: "COnfigurações de utilizador"
     sms_select: 
       default_sms_option: "[Select Cell]"
-      new_sms_option: "New Cell Number"
+      new_sms_option: "Novo número de telemóvel"
     titles: 
-      select_profile_pic: "Select Profile Pic"
-    token_never_expires: never
+      select_profile_pic: "Selecionar foto de perfil"
+    token_never_expires: nunca
     twitter_select: 
       twitter: Twitter
     ways_to_contact: 
       buttons: 
-        confirm: Confirm
-        ok_thanks: "Ok, Thanks"
-        register_email: "Register Email"
-        register_sms: "Register SMS"
+        confirm: Confirmar
+        ok_thanks: "Ok, Agradecido"
+        register_email: "Registar endereço eletrónico"
+        register_sms: "Registar SMS"
       carriers: 
         a_t_and_t: AT&T
         alltel: Alltel
@@ -2033,29 +2033,29 @@
         cingular: Cingular
         cricket: Cricket
         nextel: Nextel
-        other: "Other Carrier"
+        other: "Outro operador"
         sprint_psc: "Sprint PCS"
         t_mobile: T-Mobile
         verizon: Verizon
         virgin_mobile: "Virgin Mobile"
-      confirming_contact: Confirming...
+      confirming_contact: A confirmar
       contact_types: 
         sms: sms
       default_carrier_option: "[Select Carrier]"
       headers: 
-        contact_type: Type
-        email_addresses: "Email Addresses"
-        other_contact: "Other Contacts"
-        ways_to_contact: "Ways to Contact"
+        contact_type: Tipo
+        email_addresses: "Endereço eletrónico"
+        other_contact: "Outros contactos"
+        ways_to_contact: "Formas de contacto"
       labels: 
-        carrier: Carrier
-        cell_number: "Cell Number"
-        email_address: "Email Address"
-        enable_login_for_email: "I want to log in to Canvas using this email address"
+        carrier: Operador
+        cell_number: "Número de telemóvel"
+        email_address: "Endereço eletrónico"
+        enable_login_for_email: "Quero iniciar sessão no Campus com este endereço eletrónico"
         sms_email: "SMS Email"
       links: 
-        add_contact_method: "Add Contact Method"
-        add_email_address: "Add Email Address"
+        add_contact_method: "Adicionar método de contacto"
+        add_email_address: "Adicionar endereço eletrónico"
         email: Email
         resend_confirmation: "Re-Send Confirmation"
         text_sms: "Text (SMS)"
