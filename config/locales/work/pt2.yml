@@ -1472,50 +1472,50 @@
       labels: 
         see_results: "Ver resultados de %{user_name}"
       mastery: "Domínio na última tentativa"
-      no_mastery: "No Mastery on latest attempt"
-      outcomes_for: "Outcomes for %{user_name}"
-      score_out_of_possible: "%{score}* out of %{possible}*"
+      no_mastery: "Não se conseguiu o domínio na última tentativa"
+      outcomes_for: "Resultados de %{user_name}"
+      score_out_of_possible: "%{score}* de %{possible}*"
       short_title: 
-        attempts: Attempts
-        average_percent: "Avg Percent"
-        latest_score: "Latest Score"
-        outcome: Outcome
+        attempts: Tentativas
+        average_percent: "Percentagem média"
+        latest_score: "Última Pontuação"
+        outcome: Resultado
   page_comment: 
-    default_user_name: Anonymous
+    default_user_name: Anônimo
   page_comments: 
     errors: 
-      create_failed: "Comment creation failed"
+      create_failed: "A criação do comentário falhou"
   page_view: 
-    default_user_name: "Unknown User"
+    default_user_name: "Utilizador desconhecido"
     insignificant_duration: "--"
   page_views: 
     _table: 
-      loading_more_results: "Loading more results"
-    download_filename: "Pageviews For %{user}"
+      loading_more_results: "A carregar mais resultados"
+    download_filename: "Vistas de páginas para %{user}"
     index: 
       headers: 
-        subhead: "Shows all of the pages that this user has visited."
-        title: "Pageviews for %{user}"
+        subhead: "Mostrar todas as páginas que este utilizador visitou."
+        title: "Vistas de páginas para %{user}"
     table: 
       headers: 
-        date: Date
-        participated: Participated
-        time: Time
+        date: Data
+        participated: Participou
+        time: Tempo
         url: URL
-        user_agent: "User Agent"
+        user_agent: "Agente de utilizador"
   plugins: 
     big_blue_button: 
-      description: "Big Blue Button web conferencing support"
+      description: "Suporte de conferências web Big Blue Button"
       name: "Big Blue Button"
     big_blue_button_settings: 
-      description: "You will need access to a [BigBlueButton](%{url}) instance."
+      description: "Necessitas de acesso ao [BigBlueButton](%{url})"
       domain_description: "**hostname** or **ip address** of your BigBlueButton installation (e.g. bigbluebutton.mycompany.com)"
       labels: 
-        domain: Domain
-        secret: Secret
-      secret_description: "This is the %{parameter_name} parameter that can be found in the %{filename} config file."
+        domain: Domínio
+        secret: Secreto
+      secret_description: "Este é o pârametro %{parameter_name} que pode ser encontrado no ficheiro de configuração %{filename}."
     buttons: 
-      saving: Saving...
+      saving: A gravar
     canvas_cartridge_importer: 
       description: "This enables converting a canvas export to the intermediary json format to be imported"
       file_description: "Canvas Course Export Package"
@@ -1546,14 +1546,14 @@
         subject_parameter: "Subject Param"
         url: URL
       options: 
-        email: "Send an Email"
-        nothing: "Do Nothing"
-        post: "Post to a URL"
+        email: "Enviar Email"
+        nothing: "Não fazer nada"
+        post: "Publicar URL"
     errors: 
-      plugin_doesnt_exist: "The plugin %{id} doesn't exist."
-      setting_update_failed: "There was an error saving the plugin settings."
+      plugin_doesnt_exist: "O plugin %{id} não existe."
+      setting_update_failed: "Erro ao gravar as configurações do plugin."
     etherpad: 
-      description: "EtherPad document sharing"
+      description: "Partilhar documento EtherPad"
       name: EtherPad
     etherpad_settings: 
       description: "EtherPad is now an open source project. There are a number of public hosted instances of EtherPad that you can use if you'd like. These include:"
@@ -1569,7 +1569,7 @@
       sketchpad: SketchPad
       typewithme: TypeWith.me
     facebook: 
-      description: "Canvas Facebook application"
+      description: "Aplicação Campus Facebook"
       name: Facebook
     facebook_settings: 
       description: |-
@@ -1583,7 +1583,7 @@
           * **Facebook Integration -- Canvas URL:** set to %{canvas_url}
           * Make sure **Advanced -- OAuth 2.0 for Canvas** is enabled
           * After you save your app, make a note of the App ID, API Key and App Secret
-      domain_name: domain
+      domain_name: domínio
       headers: 
         domain_settings: "Domain Settings"
       hints: 
@@ -1598,7 +1598,7 @@
         disable_ssl: "Disable SSL"
         secret: "App Secret"
     google_docs: 
-      description: "Google Docs document sharing"
+      description: "Partilhar documento Google Docs"
       name: "Google Docs"
     google_docs_settings: 
       description: |-
@@ -1617,17 +1617,17 @@
         success_timeout: "Success notification timeout (in seconds)"
         wait_for_success: "Wait for success notifications"
     index: 
-      author: Author
-      configure_plugin: Configure
-      description: Description
+      author: Autor
+      configure_plugin: Configurar
+      description: Descrição
       name: Name
-      no_plugins: "There are no Canvas plugins installed"
-      page_title: "Canvas Plugins"
+      no_plugins: "Sem plugins instalados"
+      page_title: "Campus Plugins"
       tag: Tag
-      version: Version
+      version: Versão
       website: Website
     kaltura: 
-      description: "Kaltura video/audio recording and playback"
+      description: "Kaltura vídeo/gravação de audio e playback"
       name: Kaltura
     kaltura_settings: 
       account_settings: "These values can be found in the Kaltura Management Console under \"Settings -> Integration Settings\""
